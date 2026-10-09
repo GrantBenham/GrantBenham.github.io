@@ -42,7 +42,6 @@ for entry in entries:
             results.append({'id': entry['id'], 'status': 'failed', 'error': str(error)})
             break
 Path('bibliography-report.json').write_text(json.dumps(results, indent=2) + '\n')
-for result in results:
-    print('::notice title=Publication metadata::' + json.dumps(result).replace('%', '%25'))
+print('::notice title=Bibliography report::' + json.dumps(results).replace('%', '%25'))
 print(f"Retrieved {sum(r['status'] == 'retrieved' for r in results)} DOI records; "
       f"{sum(r['status'] == 'failed' for r in results)} lookups failed.")
