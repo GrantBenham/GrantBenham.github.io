@@ -7,5 +7,7 @@
 @media print{.site-header,.site-footer,.archive-controls,.button-row,.pdf-viewer{display:none!important}body{font-size:11pt;color:#000}.container{width:100%}.page-content{padding:0}.citation{break-inside:avoid}a{color:#000}.citation[hidden]{display:none!important}}
 
 /* Compact navigation and alumni portraits. */
-.header-inner{justify-content:flex-end;min-height:80px}.alumni-grid{grid-template-columns:repeat(auto-fit,120px);column-gap:24px;row-gap:22px}.alumni-card{width:120px}.alumni-card img{width:120px;height:120px;max-width:100%;object-fit:cover}.alumni-photo-link{display:block;width:fit-content}.alumni-card h3{font-size:1rem;line-height:1.25;margin-top:8px;width:120px;overflow-wrap:anywhere}.alumni-name-line{display:block}
+.header-inner{justify-content:flex-end;min-height:80px}.alumni-grid{grid-template-columns:repeat(auto-fit,120px);column-gap:24px;row-gap:22px}.alumni-card{width:120px;text-align:center}.alumni-card img{width:120px;height:120px;max-width:100%;object-fit:cover}.alumni-photo-link{display:block;width:fit-content}.alumni-card h3{font-size:1rem;line-height:1.25;margin-top:8px;width:120px;overflow-wrap:anywhere}.alumni-name-line{display:block}
 @media(max-width:700px){.header-inner{justify-content:flex-end}}
+
+.alumni-subheading{font-size:1.2rem;margin-top:12px}.alumni-instruction{font-size:1rem;margin-top:6px}

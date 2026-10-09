@@ -1,5 +1,15 @@
 [
   {
+    "id": "madison-rosas",
+    "name": "Madison Rosas",
+    "years": null,
+    "photo": "/images/alumni/madison-rosas.webp",
+    "photoAlt": "Portrait of Madison Rosas",
+    "description": null,
+    "source": "https://stresslab.weebly.com/people.html; identity/alumni status confirmed by Grant Benham",
+    "linkedin": "https://www.linkedin.com/in/madisonrosas/"
+  },
+  {
     "id": "jordan-buren-nee-kenemore",
     "name": "Dr. Jordan Buren",
     "years": null,
@@ -58,6 +68,16 @@
     "description": null,
     "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
     "linkedin": "https://www.linkedin.com/in/melanie-montanez/"
+  },
+  {
+    "id": "karla-chapa",
+    "name": "Karla Chapa",
+    "years": null,
+    "photo": "/images/alumni/karla-chapa.webp",
+    "photoAlt": "Portrait of Karla Chapa",
+    "description": null,
+    "source": "https://stresslab.weebly.com/people.html; identity/alumni status confirmed by Grant Benham",
+    "linkedin": null
   },
   {
     "id": "monica-gonzalez",
@@ -468,25 +488,5 @@
     "description": null,
     "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
     "linkedin": "https://www.linkedin.com/in/sarsteg/"
-  },
-  {
-    "id": "karla-chapa",
-    "name": "Karla Chapa",
-    "years": null,
-    "photo": "/images/alumni/karla-chapa.webp",
-    "photoAlt": "Portrait of Karla Chapa",
-    "description": null,
-    "source": "https://stresslab.weebly.com/people.html; identity/alumni status confirmed by Grant Benham",
-    "linkedin": null
-  },
-  {
-    "id": "madison-rosas",
-    "name": "Madison Rosas",
-    "years": null,
-    "photo": "/images/alumni/madison-rosas.webp",
-    "photoAlt": "Portrait of Madison Rosas",
-    "description": null,
-    "source": "https://stresslab.weebly.com/people.html; identity/alumni status confirmed by Grant Benham",
-    "linkedin": "https://www.linkedin.com/in/madisonrosas/"
   }
 ]
