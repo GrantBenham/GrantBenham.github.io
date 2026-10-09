@@ -108,3 +108,12 @@ test('alumni gallery preserves caption names without duplicate or current-member
   await expect(page.locator('.alumni-card').filter({hasText:'Madison Rosas'})).toHaveCount(1);
   await expect(page.getByRole('heading',{name:'Lab alumni'})).toBeVisible();
 });
+test('owner-approved publication corrections retain stable links', async ({page})=>{
+  await page.goto('publications/');
+  await expect(page.locator('#pub-2020-10')).toContainText('Benham, G. (2022)');
+  await expect(page.locator('#pub-2018-12')).toContainText('(2019)');
+  await expect(page.locator('#pub-2016-15')).toContainText('(2017)');
+  await expect(page.locator('#pub-2006-24 a')).toHaveAttribute('href','https://doi.org/10.1891/hhci-v4i4a001');
+  await expect(page.locator('#pub-2006-24 .content-note')).toHaveCount(0);
+  await expect(page.locator('#pub-2025-04')).toContainText('61–72');
+});
