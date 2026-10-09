@@ -5,7 +5,7 @@ You do **not** need to run code or use a terminal. The installation, build, and 
 Your repository is:
 https://github.com/GrantBenham/GrantBenham.github.io
 
-Your public website address will be:
+Your public website address is:
 https://grantbenham.github.io/
 
 The repository is where the editable website files are stored. The public website is what visitors see.
@@ -16,7 +16,7 @@ The repository is where the editable website files are stored. The public websit
 - You selected **GitHub Actions** under Settings → Pages.
 - Codex built the website and uploaded the files.
 - You approved publishing the corrected initial version.
-- Codex handles the technical checks and publication workflow.
+- Codex ran the technical checks and successfully published the corrected initial version.
 
 You do not need to repeat these setup steps.
 

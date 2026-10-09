@@ -17,3 +17,7 @@ Verified in the current cloud workspace; these results do not claim that GitHub 
 Automated accessibility checks do not replace a full human accessibility review. Bibliographic/source questions and media approval items are listed in `CONTENT-REVIEW.md`.
 
 Initial validation preceded the owner’s authorization to commit and push the review code. No website deployment or environment publication has been performed. Reusable installation/startup instructions and source-domain additions were saved to the cloud configuration draft.
+
+## Corrected public version
+
+The owner authorized publication after supplying corrections. All 17 local browser tests passed, along with type/build/link checks. GitHub Actions deployment run 37878310450 completed successfully. All eight public pages returned HTTP 200 with the expected content; the corrected DOI, years, Karla/Madison photos, presentation PDF, and CV download were confirmed on the public site. The alumni gallery now has 49 entries. Live-browser interaction testing was limited by Chromium not trusting the cloud proxy certificate; HTTPS page/file checks used the environment’s supported verified trust configuration. No TLS verification was disabled.

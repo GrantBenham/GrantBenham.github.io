@@ -42,6 +42,9 @@ for entry in entries:
             results.append({'id': entry['id'], 'status': 'failed', 'error': str(error)})
             break
 Path('bibliography-report.json').write_text(json.dumps(results, indent=2) + '\n')
-print('::notice title=Bibliography report::' + json.dumps(results).replace('%', '%25'))
+payload = json.dumps(results)
+chunks = [payload[i:i+3500] for i in range(0, len(payload), 3500)]
+for number, chunk in enumerate(chunks, 1):
+    print(f'::notice title=Bibliography report {number:02}/{len(chunks):02}::' + chunk.replace('%', '%25'))
 print(f"Retrieved {sum(r['status'] == 'retrieved' for r in results)} DOI records; "
       f"{sum(r['status'] == 'failed' for r in results)} lookups failed.")
