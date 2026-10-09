@@ -1,0 +1,599 @@
+[
+  {
+    "id": "pub-2026-01",
+    "status": "retrieved",
+    "doi": "10.1038/s41440-026-02761-y",
+    "title": [
+      "Transepidermal water loss is positively correlated with blood pressure in young adults"
+    ],
+    "journal": [
+      "Hypertension Research"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          4
+        ]
+      ]
+    },
+    "volume": "49",
+    "issue": "10",
+    "page": "2922-2923"
+  },
+  {
+    "id": "pub-2025-02",
+    "status": "retrieved",
+    "doi": "10.1016/j.paid.2025.113284",
+    "title": [
+      "Higher sensory processing sensitivity is associated with reduced vagally-mediated heart rate variability"
+    ],
+    "journal": [
+      "Personality and Individual Differences"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "volume": "246",
+    "issue": null,
+    "page": "113284"
+  },
+  {
+    "id": "pub-2024-03",
+    "status": "retrieved",
+    "doi": "10.1007/s12144-024-06847-z",
+    "title": [
+      "Adverse childhood experiences moderate the association between sensory processing sensitivity and depression"
+    ],
+    "journal": [
+      "Current Psychology"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          19
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          19
+        ]
+      ]
+    },
+    "volume": "43",
+    "issue": "43",
+    "page": "33141-33144"
+  },
+  {
+    "id": "pub-2025-04",
+    "status": "retrieved",
+    "doi": "10.1080/08964289.2024.2335175",
+    "title": [
+      "Recent Stressful Life Events and Perceived Stress as Serial Mediators of the Association between Adverse Childhood Events and Insomnia"
+    ],
+    "journal": [
+      "Behavioral Medicine"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          2
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          18
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          18
+        ]
+      ]
+    },
+    "volume": "51",
+    "issue": "1",
+    "page": "61-72"
+  },
+  {
+    "id": "pub-2024-05",
+    "status": "retrieved",
+    "doi": "10.1093/milmed/usae003",
+    "title": [
+      "Heart Rate Variability Biofeedback as a Treatment for Military PTSD: A Meta-Analysis"
+    ],
+    "journal": [
+      "Military Medicine"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          30
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          25
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          25
+        ]
+      ]
+    },
+    "volume": "189",
+    "issue": "9-10",
+    "page": "e1903-e1909"
+  },
+  {
+    "id": "pub-2023-06",
+    "status": "retrieved",
+    "doi": "10.1002/smi.3250",
+    "title": [
+      "The pathway from sensory processing sensitivity to physical health: Stress as a mediator"
+    ],
+    "journal": [
+      "Stress and Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          18
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          18
+        ]
+      ]
+    },
+    "volume": "39",
+    "issue": "5",
+    "page": "1148-1156"
+  },
+  {
+    "id": "pub-2022-07",
+    "status": "retrieved",
+    "doi": "10.1007/s10903-021-01315-3",
+    "title": [
+      "A Comparison of Psychological Stress and Sleep Problems in Undocumented Students, DACA Recipients, and U.S. Citizens"
+    ],
+    "journal": [
+      "Journal of Immigrant and Minority Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          25
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          25
+        ]
+      ]
+    },
+    "volume": "24",
+    "issue": "4",
+    "page": "928-936"
+  },
+  {
+    "id": "pub-2021-08",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2021-09",
+    "status": "retrieved",
+    "doi": "10.1002/smi.3016",
+    "title": [
+      "Stress and sleep in college students prior to and during the COVID‐19 pandemic"
+    ],
+    "journal": [
+      "Stress and Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2021,
+          8
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          19
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          19
+        ]
+      ]
+    },
+    "volume": "37",
+    "issue": "3",
+    "page": "504-515"
+  },
+  {
+    "id": "pub-2020-10",
+    "status": "retrieved",
+    "doi": "10.1080/07448481.2020.1799807",
+    "title": [
+      "Sleep paralysis in college students"
+    ],
+    "journal": [
+      "Journal of American College Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          4
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          19
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          19
+        ]
+      ]
+    },
+    "volume": "70",
+    "issue": "5",
+    "page": "1286-1291"
+  },
+  {
+    "id": "pub-2019-11",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2018-12",
+    "status": "retrieved",
+    "doi": "10.1002/smi.2840",
+    "title": [
+      "Stress and sleep remain significant predictors of health after controlling for negative affect"
+    ],
+    "journal": [
+      "Stress and Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2019,
+          2
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          31
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          31
+        ]
+      ]
+    },
+    "volume": "35",
+    "issue": "1",
+    "page": "59-68"
+  },
+  {
+    "id": "pub-2017-13",
+    "status": "retrieved",
+    "doi": "10.1177/0739986317707721",
+    "title": [
+      "The Association Between Body Mass Index and Sleep in a Predominantly Hispanic College Population"
+    ],
+    "journal": [
+      "Hispanic Journal of Behavioral Sciences"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2017,
+          8
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          4
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          4
+        ]
+      ]
+    },
+    "volume": "39",
+    "issue": "3",
+    "page": "389-397"
+  },
+  {
+    "id": "pub-2017-14",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2016-15",
+    "status": "retrieved",
+    "doi": "10.3758/s13428-016-0710-8",
+    "title": [
+      "An examination of the equivalency of self-report measures obtained from crowdsourced versus undergraduate student samples"
+    ],
+    "journal": [
+      "Behavior Research Methods"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2017,
+          2
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          23
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          23
+        ]
+      ]
+    },
+    "volume": "49",
+    "issue": "1",
+    "page": "320-334"
+  },
+  {
+    "id": "pub-2016-16",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2016-17",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2010-18",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2009-19",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2008-20",
+    "status": "no DOI supplied"
+  },
+  {
+    "id": "pub-2008-21",
+    "status": "retrieved",
+    "doi": "10.1097/01.hnp.0000312659.21513.f9",
+    "title": [
+      "Effect of Healing Touch on Stress Perception and Biological Correlates"
+    ],
+    "journal": [
+      "Holistic Nursing Practice"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2008,
+          3
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          3
+        ]
+      ]
+    },
+    "volume": "22",
+    "issue": "2",
+    "page": "103-110"
+  },
+  {
+    "id": "pub-2007-22",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2007-23",
+    "status": "no DOI supplied"
+  },
+  {
+    "id": "pub-2006-24",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2006-25",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2006-26",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2005-27",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2004-28",
+    "status": "no DOI supplied"
+  },
+  {
+    "id": "pub-2003-29",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-2002-30",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-1998-31",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "pub-1997-32",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

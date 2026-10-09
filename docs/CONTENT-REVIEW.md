@@ -4,7 +4,7 @@
 
 - The 2006 stimulant-use article now links to DOI **10.1891/hhci-v4i4a001**. The old warning has been removed.
 - Sleep Paralysis in College Students uses its journal-issue year, **2022**, rather than its online-first year of 2020.
-- Journal-issue years are the preferred convention for the publication archive. Other years are being checked against bibliographic records.
+- Journal-issue years are the preferred convention for the publication archive. Crossref records confirm **2019** for the stress/negative-affect article and **2017** for the crowdsourcing/self-report article; both have been updated.
 - **Karla Chapa** is included using the existing photograph confirmed by Grant. The old website had the wrong caption on that photo.
 - **Madison Rosas** is included as an alum, as confirmed by Grant. The gallery now has **49 alumni**.
 - The 2020 conference entries remain listed as presented.
@@ -13,6 +13,8 @@
 - The relaxation-resource page can be added later.
 - Software descriptions and currently available links may be published as they are, and updated later.
 - No old slogans or institutional logos were copied into the redesign.
+
+- The 2025 Behavioral Medicine stress/insomnia article uses final issue pages **61–72**, as recorded by Crossref, replacing the online-first pages 1–12.
 
 ## Things to revisit later
 
