@@ -1,14 +1,14 @@
 import {test, expect} from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import {site} from '../src/config';
-const pages=['','research/','publications/','presentations/','lab/','software/','teaching/'];
+const pages=['','research/','publications/','presentations/','lab/','software/','teaching/','service/'];
 for (const path of pages) {
   test(`${path || 'home'}: navigation, accessibility, and responsive layout`, async ({page})=>{
     const errors:string[]=[];
     page.on('pageerror',e=>errors.push(e.message));
     await page.goto(path);
     await expect(page.locator('main h1')).toHaveCount(1);
-    await expect(page.locator('nav[aria-label="Main navigation"] a')).toHaveCount(7);
+    await expect(page.locator('nav[aria-label="Main navigation"] a')).toHaveCount(8);
     const results=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
     expect(results.violations).toEqual([]);
     for(const width of [1440,768,390,320]) {

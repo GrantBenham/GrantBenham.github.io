@@ -1,0 +1,36 @@
+---
+interface Props { id: string; title: string; open?: boolean; }
+const { id, title, open = false } = Astro.props;
+---
+<section class:list={['service-accordion', { 'is-expanded': open }]}>
+  <h2><button type="button" aria-expanded={open} aria-controls={`${id}-panel`} id={`${id}-button`} data-service-toggle><span>{title}</span><svg aria-hidden="true" viewBox="0 0 24 24" width="24" height="24"><path d="m5 9 7 7 7-7" fill="none" stroke="currentColor" stroke-width="2" /></svg></button></h2>
+  <div class="service-panel" id={`${id}-panel`} aria-labelledby={`${id}-button`} hidden={!open}><slot /></div>
+</section>
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-service-toggle]').forEach(button => {
+    button.addEventListener('click', () => {
+      const panel = document.getElementById(button.getAttribute('aria-controls')!);
+      if (!panel) return;
+      const expanded = button.getAttribute('aria-expanded') !== 'true';
+      button.setAttribute('aria-expanded', String(expanded));
+      panel.hidden = !expanded;
+      button.closest('.service-accordion')?.classList.toggle('is-expanded', expanded);
+    });
+  });
+</script>
+<noscript><style>.service-panel[hidden]{display:block!important}</style></noscript>
+<style>
+  .service-accordion { border:1px solid var(--line); border-left:6px solid #b5c4cf; border-radius:5px; margin-bottom:24px; overflow:hidden; }
+  .service-accordion.is-expanded { border-left-color:#df9550; }
+  h2 { margin:0; font-size:clamp(1.5rem, 2.5vw, 2rem); }
+  button { display:flex; align-items:center; justify-content:space-between; gap:20px; width:100%; padding:27px 32px; border:0; background:var(--paper); color:var(--navy); font:inherit; text-align:left; cursor:pointer; }
+  button:hover { background:var(--tint); }
+  button:focus-visible { outline-offset:-5px; }
+  svg { flex-shrink:0; }
+  .is-expanded button { background:#fff8f0; }
+  .is-expanded svg { transform:rotate(180deg); }
+  .service-panel { padding:26px 32px 30px; }
+  .service-panel :global(p) { max-width:80ch; margin:0 0 22px; }
+  .service-panel :global(p:last-child) { margin-bottom:0; }
+  @media(max-width:700px) { button { padding:22px 18px; gap:12px; } .service-panel { padding:22px 18px; } .service-accordion { margin-bottom:18px; } }
+</style>

@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import ServiceAccordion from '../components/ServiceAccordion.astro';
+import {localUrl} from '../config';
+---
+<Layout title="Service" description="Departmental, university, college, and professional service by Grant Benham.">
+  <div class="container page-content">
+    <PageHeading title="Service" intro="Selected contributions to the university, department, and broader professional community through institutional leadership, faculty governance, student advising, research oversight, and professional engagement." />
+    <ServiceAccordion id="departmental-service" title="Departmental Service" open>
+      <p>My departmental service has encompassed faculty governance, personnel evaluation, policy development, student engagement, and administrative leadership. Since October 2025, I have served as Associate Chair of the Department of Psychological Science at UTRGV.</p>
+      <p>Over the years, I have chaired or served on numerous departmental committees responsible for tenure and promotion, faculty evaluation, post-tenure review, personnel searches, and departmental policies and procedures. I have also contributed to departmental infrastructure, including developing and managing the department's website from 2016 to 2025.</p>
+      <p>An important component of my earlier departmental service involved advising student organizations. From 2002 through 2018, I served as faculty advisor to Psi Chi and the Psychology Club, first at UTPA and subsequently at UTRGV. This work involved supporting student leadership, academic engagement, professional development, and participation in psychology-related activities. My contributions were recognized through the 2010 UTPA Faculty Advisor of the Year Award, the 2017 UTRGV Faculty Advisor of the Year Award, and the 2017 Psi Chi Florence L. Denmark Faculty Advisor Award, an international recognition for outstanding faculty advising.</p>
+      <p>In addition to student-organization advising, I have mentored numerous undergraduate and graduate students through research projects, conference presentations, and graduate thesis supervision. Further details of this work are provided on the <a href={localUrl('/teaching/')}>Teaching</a> and <a href={localUrl('/lab/')}>Laboratory</a> pages.</p>
+    </ServiceAccordion>
+    <ServiceAccordion id="university-service" title="University & College Service">
+      <p>Throughout my academic career at UTPA and UTRGV, I have contributed to university governance, faculty affairs, research oversight, and institutional initiatives. My service has included membership on the UTRGV Faculty Senate (2020–2023), the University Tenure and Promotion Committee (2015–2019), including service as co-chair, and various university and college committees concerned with faculty development, policy, and institutional planning.</p>
+      <p>At UTPA, I served as Chair of the Institutional Review Board from 2005 to 2012, overseeing the ethical review of research involving human participants. I subsequently continued contributing to research oversight and governance through service on additional university and UT System committees. I have also served on the College of Liberal Arts Dean Search Committee and contributed to university initiatives involving faculty wellness and professional development.</p>
+      <p>More recently, a significant focus of my service and professional development has involved artificial intelligence in higher education. I serve on the UTRGV AI Task Force and as an AI Faculty Fellow, contributing to discussions and initiatives concerning the application of AI in teaching, research, and university activities. I have also participated in numerous AI-focused workshops, seminars, and professional development activities, exploring both the opportunities and practical challenges associated with the effective and responsible use of these technologies in higher education.</p>
+    </ServiceAccordion>
+    <ServiceAccordion id="professional-service" title="Professional Service">
+      <p>My professional service has included editorial responsibilities, peer review, professional association leadership, and public engagement. I have served on the editorial board of Stress and Health since 2016 and have reviewed manuscripts for a range of scholarly journals in psychology, behavioral medicine, psychophysiology, and health.</p>
+      <p>I have also contributed to Psi Chi at the regional and international levels, including membership on its International Advisory Board and Southwestern Regional Steering Committee. These roles complemented my longstanding involvement with student development and professional engagement in psychology.</p>
+      <p>Beyond formal academic service, I have participated in community education and outreach activities intended to increase public understanding of psychological science and health. These have included organizing Brain Day events at the International Museum of Art and Science and delivering presentations on psychological stress, sleep, stress management, and related health topics to university and community audiences.</p>
+    </ServiceAccordion>
+  </div>
+</Layout>
