@@ -33,4 +33,4 @@ The website includes photos and presentation PDFs recovered from your existing l
 
 The archive contains 32 published works and 123 presentations. DOI links go to the articles; copyrighted article PDFs are not uploaded. No claim of “publisher verified” is displayed on the website.
 
-The main academic source is your October 2026 CV, supplemented by your corrections and the original Weebly pages. Bibliographic lookup results are recorded separately for maintenance.
+The main academic source is your October 2026 CV, supplemented by your corrections and the original Weebly pages. All 29 supplied DOI identifiers matched Crossref records for the corresponding publications, including the corrected stimulant-use DOI. Issue years were checked where Crossref supplied them. Three works have no DOI in the supplied CV; no DOI has been invented for them. The lookup records are saved separately for maintenance.

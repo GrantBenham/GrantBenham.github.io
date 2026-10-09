@@ -274,8 +274,43 @@
   },
   {
     "id": "pub-2021-08",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1002/smi.3055",
+    "title": [
+      "Bedtime repetitive negative thinking moderates the relationship between psychological stress and insomnia"
+    ],
+    "journal": [
+      "Stress and Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2021,
+          12
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          29
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          29
+        ]
+      ]
+    },
+    "volume": "37",
+    "issue": "5",
+    "page": "949-961"
   },
   {
     "id": "pub-2021-09",
@@ -360,8 +395,34 @@
   },
   {
     "id": "pub-2019-11",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1016/j.sleh.2019.07.007",
+    "title": [
+      "The Sleep Health Index: Correlations with standardized stress and sleep measures in a predominantly Hispanic college student population"
+    ],
+    "journal": [
+      "Sleep Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "volume": "5",
+    "issue": "6",
+    "page": "587-591"
   },
   {
     "id": "pub-2018-12",
@@ -445,8 +506,32 @@
   },
   {
     "id": "pub-2017-14",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1353/hpu.2017.0115",
+    "title": [
+      "Short Sleep Duration is Associated with Obesity in Hispanic Manufacturing Workers"
+    ],
+    "journal": [
+      "Journal of Health Care for the Poor and Underserved"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "volume": "28",
+    "issue": "4",
+    "page": "1304-1313"
   },
   {
     "id": "pub-2016-15",
@@ -490,23 +575,162 @@
   },
   {
     "id": "pub-2016-16",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1007/s10865-016-9720-3",
+    "title": [
+      "Development of the Sensory Hypersensitivity Scale (SHS): a self-report tool for assessing sensitivity to sensory stimuli"
+    ],
+    "journal": [
+      "Journal of Behavioral Medicine"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          12
+        ]
+      ]
+    },
+    "volume": "39",
+    "issue": "3",
+    "page": "537-550"
   },
   {
     "id": "pub-2016-17",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1002/smi.2640",
+    "title": [
+      "Skin Barrier Recovery is not Associated with Self-Perceived Stress"
+    ],
+    "journal": [
+      "Stress and Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2016,
+          12
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2015,
+          5,
+          26
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          5,
+          26
+        ]
+      ]
+    },
+    "volume": "32",
+    "issue": "5",
+    "page": "616-620"
   },
   {
     "id": "pub-2010-18",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1002/smi.1304",
+    "title": [
+      "Sleep: an important factor in stress‐health models"
+    ],
+    "journal": [
+      "Stress and Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2010,
+          8
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2010,
+          8,
+          5
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          8
+        ]
+      ]
+    },
+    "volume": "26",
+    "issue": "3",
+    "page": "204-214"
   },
   {
     "id": "pub-2009-19",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1002/smi.1225",
+    "title": [
+      "A comparison of changes in secretory immunoglobulin A following a stress‐inducing and stress‐reducing task"
+    ],
+    "journal": [
+      "Stress and Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2009,
+          2
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2008,
+          9,
+          10
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          9,
+          10
+        ]
+      ]
+    },
+    "volume": "25",
+    "issue": "1",
+    "page": "81-90"
   },
   {
     "id": "pub-2008-20",
@@ -545,8 +769,43 @@
   },
   {
     "id": "pub-2007-22",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1002/smi.1150",
+    "title": [
+      "The shape of stress: the use of frequent sampling to measure temporal variation in S‐IgA levels during acute stress"
+    ],
+    "journal": [
+      "Stress and Health"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2007,
+          12
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2007,
+          7,
+          30
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          7,
+          30
+        ]
+      ]
+    },
+    "volume": "23",
+    "issue": "5",
+    "page": "295-301"
   },
   {
     "id": "pub-2007-23",
@@ -554,23 +813,129 @@
   },
   {
     "id": "pub-2006-24",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1891/hhci-v4i4a001",
+    "title": [
+      "Illicit Prescription Stimulant Use Among College Students Living Near the United States–Mexico Border"
+    ],
+    "journal": [
+      "Hispanic Health Care International"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2006,
+          12,
+          1
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          12,
+          1
+        ]
+      ]
+    },
+    "volume": "4",
+    "issue": "4",
+    "page": "195-202"
   },
   {
     "id": "pub-2006-25",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1037/0022-3514.91.2.342",
+    "title": [
+      "Expect the unexpected: Ability, attitude, and responsiveness to hypnosis."
+    ],
+    "journal": [
+      "Journal of Personality and Social Psychology"
+    ],
+    "print": null,
+    "online": {
+      "date-parts": [
+        [
+          2006,
+          8
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          8
+        ]
+      ]
+    },
+    "volume": "91",
+    "issue": "2",
+    "page": "342-350"
   },
   {
     "id": "pub-2006-26",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1016/j.paid.2005.11.021",
+    "title": [
+      "The Highly Sensitive Person: Stress and physical symptom reports"
+    ],
+    "journal": [
+      "Personality and Individual Differences"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2006,
+          5
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          5
+        ]
+      ]
+    },
+    "volume": "40",
+    "issue": "7",
+    "page": "1433-1440"
   },
   {
     "id": "pub-2005-27",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1038/scientificamericanmind0605-46",
+    "title": [
+      "The Truth and the Hype of Hypnosis"
+    ],
+    "journal": [
+      "Scientific American Mind"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2005,
+          6
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          6
+        ]
+      ]
+    },
+    "volume": "16",
+    "issue": "2",
+    "page": "46-53"
   },
   {
     "id": "pub-2004-28",
@@ -578,22 +943,126 @@
   },
   {
     "id": "pub-2003-29",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1076/iceh.51.2.95.14614",
+    "title": [
+      "Editorial"
+    ],
+    "journal": [
+      "International Journal of Clinical and Experimental Hypnosis"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2003,
+          4,
+          1
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          2003,
+          4,
+          1
+        ]
+      ]
+    },
+    "volume": "51",
+    "issue": "2",
+    "page": "95-96"
   },
   {
     "id": "pub-2002-30",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1080/00207140208410087",
+    "title": [
+      "Hypnotic susceptibility scales: Are the mean scores increasing?"
+    ],
+    "journal": [
+      "International Journal of Clinical and Experimental Hypnosis"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          2002,
+          1
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          2002,
+          1
+        ]
+      ]
+    },
+    "volume": "50",
+    "issue": "1",
+    "page": "5-16"
   },
   {
     "id": "pub-1998-31",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1037/0022-3514.75.6.1604",
+    "title": [
+      "Self-fulfilling prophecy and hypnotic response are not the same thing."
+    ],
+    "journal": [
+      "Journal of Personality and Social Psychology"
+    ],
+    "print": null,
+    "online": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "volume": "75",
+    "issue": "6",
+    "page": "1604-1613"
   },
   {
     "id": "pub-1997-32",
-    "status": "failed",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "retrieved",
+    "doi": "10.1300/j184v02n03_01",
+    "title": [
+      "EEG Power-Spectral and Coherence Differences Between Attentional States during a Complex Auditory Task"
+    ],
+    "journal": [
+      "Journal of Neurotherapy"
+    ],
+    "print": {
+      "date-parts": [
+        [
+          1997,
+          10
+        ]
+      ]
+    },
+    "online": null,
+    "issued": {
+      "date-parts": [
+        [
+          1997,
+          10
+        ]
+      ]
+    },
+    "volume": "2",
+    "issue": "3",
+    "page": "1-9"
   }
 ]
