@@ -10,4 +10,4 @@ def fetch(e):
  except Exception as x:return {'id':e['id'],'status':'failed','error':str(x)}
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(fetch,entries))
 pathlib.Path('bibliography-report.json').write_text(json.dumps(results,indent=2))
-for r in results:print(json.dumps(r))
+for r in results:print('::notice title=Publication metadata::'+json.dumps(r).replace('%','%25'))
