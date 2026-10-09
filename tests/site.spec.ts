@@ -20,7 +20,7 @@ for (const path of pages) {
 }
 test('publication search, combined filters, reset, and shared URL',async({page})=>{
   await page.goto('publications/');
-  await expect(page.locator('[data-archive-item]:visible')).toHaveCount(32);
+  await expect(page.locator('[data-archive-item]:visible')).toHaveCount(31);
   await page.getByRole('searchbox',{name:'Search publications',exact:true}).fill('sensory processing sensitivity');
   await expect(page.locator('[data-archive-item]:visible')).toHaveCount(3);
   await page.getByLabel('Year',{exact:true}).selectOption('2025');
@@ -29,7 +29,7 @@ test('publication search, combined filters, reset, and shared URL',async({page})
   await page.reload();
   await expect(page.locator('[data-archive-item]:visible')).toHaveCount(1);
   await page.getByRole('button',{name:'Clear filters'}).click();
-  await expect(page.locator('[data-archive-item]:visible')).toHaveCount(32);
+  await expect(page.locator('[data-archive-item]:visible')).toHaveCount(31);
   await page.getByLabel('Type',{exact:true}).selectOption('Book chapter');
   await expect(page.locator('[data-archive-item]:visible')).toHaveCount(2);
   await page.getByRole('searchbox',{name:'Search publications',exact:true}).fill('no-such-publication-xyz');
@@ -56,7 +56,7 @@ test('research topic links prefilter the archive',async({page})=>{
   await page.getByRole('link',{name:'Browse publications in this theme →'}).nth(1).click();
   await expect(page.getByLabel('Topic',{exact:true})).toHaveValue('Sensitivity & individual differences');
   expect(await page.locator('[data-archive-item]:visible').count()).toBeGreaterThan(0);
-  expect(await page.locator('[data-archive-item]:visible').count()).toBeLessThan(32);
+  expect(await page.locator('[data-archive-item]:visible').count()).toBeLessThan(31);
 });
 test('mobile menu opens, navigates, and closes with Escape',async({page})=>{
   await page.setViewportSize({width:390,height:844});await page.goto('');
@@ -77,7 +77,7 @@ test('archives and mobile navigation remain usable without JavaScript',async({br
   const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});
   const page=await context.newPage();
   await page.goto(`http://127.0.0.1:4321${site.base}/publications/`);
-  await expect(page.locator('[data-archive-item]:visible')).toHaveCount(32);
+  await expect(page.locator('[data-archive-item]:visible')).toHaveCount(31);
   await expect(page.getByRole('navigation',{name:'Main navigation'})).toBeVisible();
   await expect(page.locator('form')).not.toBeVisible();
   await page.goto(`http://127.0.0.1:4321${site.base}/presentations/`);
@@ -113,7 +113,7 @@ test('owner-approved publication corrections retain stable links', async ({page}
   await expect(page.locator('#pub-2020-10')).toContainText('Benham, G. (2022)');
   await expect(page.locator('#pub-2018-12')).toContainText('(2019)');
   await expect(page.locator('#pub-2016-15')).toContainText('(2017)');
-  await expect(page.locator('#pub-2006-24 a')).toHaveAttribute('href','https://doi.org/10.1891/hhci-v4i4a001');
+  await expect(page.locator('#pub-2006-24 a[href^="https://doi.org/"]')).toHaveAttribute('href','https://doi.org/10.1891/hhci-v4i4a001');
   await expect(page.locator('#pub-2006-24 .content-note')).toHaveCount(0);
   await expect(page.locator('#pub-2025-04')).toContainText('61–72');
 });

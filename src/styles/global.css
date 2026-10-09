@@ -11,3 +11,17 @@
 @media(max-width:700px){.header-inner{justify-content:flex-end}}
 
 .alumni-subheading{font-size:1.2rem;margin-top:12px}.alumni-instruction{font-size:1rem;margin-top:6px}
+
+/* Inline publication abstracts; native details work with keyboard and without JavaScript. */
+.publication-entry{border-left:4px solid #b5c4cf;padding-left:24px;margin-block:12px}
+.publication-entry:has(.publication-abstract[open]){border-left:6px solid #df9550;padding-left:22px;background:#fffdf9}
+.publication-abstract{margin-top:18px;font-size:1rem}
+.publication-abstract summary{width:fit-content;color:var(--blue);font-weight:600;padding:6px 0;text-underline-offset:4px}
+.publication-abstract summary:hover{text-decoration:underline}
+.publication-abstract .abstract-hide{display:none}
+.publication-abstract[open] .abstract-show{display:none}
+.publication-abstract[open] .abstract-hide{display:inline}
+.abstract-content{max-width:78ch;margin:14px 0 4px;padding-top:14px;border-top:1px solid var(--line)}
+.abstract-content h4{font:600 1rem/1.5 var(--sans);color:var(--navy);margin:0 0 10px}
+.abstract-content p{color:var(--ink);font-size:1rem;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
+@media(max-width:700px){.publication-entry{padding-left:16px}.publication-entry:has(.publication-abstract[open]){padding-left:14px}}
