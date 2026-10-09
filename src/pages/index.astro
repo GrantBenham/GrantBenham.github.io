@@ -1,10 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import AboutContent from '../components/AboutContent.astro';
+import ScientificArt from '../components/ScientificArt.astro';
 import {site, localUrl} from '../config';
 ---
 <Layout>
   <section class="hero">
+    <div class="hero-art"><ScientificArt variant="network" /></div>
     <div class="container hero-grid">
       <div class="hero-copy">
         <h1>{site.name}</h1>

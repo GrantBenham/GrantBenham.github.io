@@ -1,0 +1,9 @@
+---
+interface Props { variant?: 'waves' | 'network'; }
+const {variant='waves'} = Astro.props;
+const nodes = [[30,100],[90,55],[145,115],[190,35],[230,85],[280,55],[330,125],[365,65]];
+---
+<svg class="scientific-art" viewBox="0 0 400 170" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  {Array.from({length:variant==='network'?7:19}, (_,i)=><path class:list={['signal', {copper:i%6===0}]} d={`M-20 ${70+i*3} C55 ${-30+i*5},85 ${180-i*2},170 ${95+i*2} S290 ${15+i*5},420 ${80+i*3}`} stroke-width={i%6===0?1.1:.65} opacity={i%6===0?.8:.4} />)}
+  {variant==='network' && <>{nodes.slice(0,-1).map(([x,y],i)=><><path class="signal" d={`M${x} ${y} L${nodes[i+1][0]} ${nodes[i+1][1]} L${nodes[(i+3)%nodes.length][0]} ${nodes[(i+3)%nodes.length][1]}`} stroke-width=".8" opacity=".5" /><circle class={i%3===0?'node':'cool-node'} cx={x} cy={y} r={i%3===0?3.5:2.5} /></>)}</>}
+</svg>

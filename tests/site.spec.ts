@@ -121,7 +121,9 @@ test('owner-approved publication corrections retain stable links', async ({page}
 test('merged home, stable About link, and compact linked alumni', async ({page}) => {
   await page.goto('');
   await expect(page.getByRole('heading', {name:'Academic biography'})).toBeVisible();
-  await expect(page.locator('footer, .wordmark, .home-research, .lab-band')).toHaveCount(0);
+  await expect(page.locator('.home-research, .lab-band')).toHaveCount(0);
+  await expect(page.locator('header .wordmark')).toHaveText(site.name);
+  await expect(page.locator('footer')).toContainText(site.institution);
   await expect(page.getByRole('link', {name:'Home', exact:true})).toHaveAttribute('aria-current','page');
   await page.goto('about/');
   await expect(page).toHaveURL(/\/#about$/);
