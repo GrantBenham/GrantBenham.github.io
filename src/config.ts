@@ -14,7 +14,7 @@ export const site = {
   portrait: '/images/grant-benham-cutout.webp',
   portraitSmall: '/images/grant-benham-cutout-420.webp',
   portraitWidth: 840,
-  portraitHeight: 684,
+  portraitHeight: 763,
   cv: '/documents/Grant-Benham-CV-2026-10.docx',
   cvLabel: 'Download CV (DOCX, October 2026)',
   scholar: 'https://scholar.google.com/citations?user=OT4muuUAAAAJ',

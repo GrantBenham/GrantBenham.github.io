@@ -54,7 +54,7 @@ The existing biography, education, appointments, awards, and contact information
 
 ## What changed
 
-Navy backgrounds, off-white serif headings, pale blue-gray body text, copper links and buttons, thin borders, and consistent dark cards and search controls. Behind the portrait, a single schematic P–QRS–T trace in blue is paired with a broad copper circadian wave. The research headings retain their small decorative wave illustrations. There are no campus photographs, institutional logos, new marketing statements, animations, or image color filters.
+Navy backgrounds, off-white serif headings, pale blue-gray body text, copper links and buttons, thin borders, and consistent dark cards and search controls. Behind the head-and-collar portrait, generated abstract artwork combines layered luminous blue and copper rhythm ribbons with pulse-like peaks and fine measurement-inspired details. The background fades out beside the text; the portrait is cropped just below the open collar and sits flush with the hero’s lower edge. The research headings retain their small decorative wave illustrations. There are no campus photographs, institutional logos, new marketing statements, animations, or image color filters.
 
 Following your latest revision, the name/link at the upper left is removed. The plain-text footer requested in the redesign brief remains. The seven menu destinations, Teaching-before-Software order, combined Home/About content, alumni order and 120-pixel photos, software selection, and archive functionality are preserved.
 
@@ -67,7 +67,7 @@ Central colors, surfaces, typography, spacing, radius, gradient, and shadow sett
 - Automated WCAG A/AA checks passed on all seven main pages and the open mobile menu. Layouts checked at 1440, 768, 390, and 320 pixels wide with no horizontal overflow.
 - Main text and link destinations are preserved on all seven pages. Image paths are unchanged except for the intentionally revised homepage portrait. Structured content data, original media, dependency files, and deployment workflows remain unchanged.
 - The six linked software repositories were reachable through GitHub. The unchanged gbEFA application URL accepted a GET request (HTTP 202); the external application itself was not functionally tested. External Google Scholar and a sampled DOI destination reject automated requests in this environment; their unchanged destinations were preserved. Automated accessibility checks do not replace a full human accessibility audit.
-- Screenshots were generated from the built website and visually inspected. The new portrait is an AI-generated transparent cutout derived from your supplied dark mockup, saved as responsive WebP assets. Its likeness is part of this design review. The original white-site portrait is retained in the repository for recovery.
+- Screenshots were generated from the built website and visually inspected. The new portrait is an AI-generated transparent cutout derived from your supplied dark mockup, tightly cropped to the head and collar and saved as responsive WebP assets. The generated abstract backdrop is supplied at 1536- and 768-pixel widths (approximately 145 KB and 39 KB). Its likeness is part of this design review. The original white-site portrait is retained in the repository for recovery.
 - The public homepage was compared byte for byte before and after the work and remains unchanged.
 
 ## Interactive preview — optional, for someone running the site locally
