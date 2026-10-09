@@ -5,6 +5,7 @@ import {site, localUrl} from '../config';
 ---
 <Layout>
   <section class="hero">
+    <div class="hero-art" aria-hidden="true"><img src={localUrl('/images/hero-rhythm-art.webp')} srcset={`${localUrl('/images/hero-rhythm-art-768.webp')} 768w, ${localUrl('/images/hero-rhythm-art.webp')} 1536w`} sizes="(max-width: 700px) 100vw, 80vw" width="1536" height="1024" alt="" /></div>
     <div class="container hero-grid">
       <div class="hero-copy">
         <h1>{site.name}</h1>
@@ -14,7 +15,7 @@ import {site, localUrl} from '../config';
         <h2>Research on psychological stress, sleep, sensitivity, and health.</h2>
         <div class="button-row"><a class="button" href={localUrl('/research/')}>Explore research <span aria-hidden="true">→</span></a><a class="button secondary" href={localUrl('/publications/')}>View publications <span aria-hidden="true">→</span></a></div>
       </div>
-      <figure class="portrait"><div class="portrait-frame"><img src={localUrl(site.portrait)} srcset={`${localUrl(site.portraitSmall)} 320w, ${localUrl(site.portrait)} 600w`} sizes="(max-width: 700px) 170px, 300px" width={site.portraitWidth} height={site.portraitHeight} alt="Grant Benham" fetchpriority="high" /></div><figcaption>Grant Benham · {site.location}</figcaption></figure>
+      <figure class="portrait"><div class="portrait-frame"><img src={localUrl(site.portrait)} srcset={`${localUrl(site.portraitSmall)} 420w, ${localUrl(site.portrait)} 840w`} sizes="(max-width: 700px) 240px, 450px" width={site.portraitWidth} height={site.portraitHeight} alt="Grant Benham" fetchpriority="high" /></div><figcaption class="sr-only">Grant Benham · {site.location}</figcaption></figure>
     </div>
   </section>
   <AboutContent />

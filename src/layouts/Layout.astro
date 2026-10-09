@@ -17,7 +17,7 @@ const canonical = new URL(Astro.url.pathname, site.url).href;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#142c46" />
+    <meta name="theme-color" content="#071522" />
     <title>{pageTitle}</title>
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href={localUrl('/favicon.svg')} />
@@ -30,5 +30,11 @@ const canonical = new URL(Astro.url.pathname, site.url).href;
     <a class="skip-link" href="#main">Skip to content</a>
     <Navigation />
     <main id="main" tabindex="-1"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><p class="footer-name">{site.name}</p><p>{site.institution}<br />{site.location}</p></div>
+        <div class="footer-links"><a href={`mailto:${site.email}`}>{site.email}</a><a href={localUrl(site.cv)} download>CV</a><a href={site.scholar}>Google Scholar →</a><a href={site.github}>GitHub →</a></div>
+      </div>
+    </footer>
   </body>
 </html>
