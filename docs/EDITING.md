@@ -58,3 +58,7 @@ For alumni, create approximately 640 × 640 pixel WebP images, with approved cro
 Replace the CV under `public/documents/`, and update its label and path in the site configuration. PDF is supported if an approved PDF is available; the initial download is the original DOCX supplied by the owner.
 
 Alumni `linkedin` fields contain the HTTPS profile link, or `null` when no matching profile is known. Linked photos use this field. Home includes the academic biography and contact details; the old About address redirects to that section.
+
+## Publication abstracts
+
+`src/data/publication-abstracts.json` contains full supplied abstract/summary text linked by `publicationId`, the stable ID in `src/data/publications.json`. `abstract` holds the complete text; `text_type` distinguishes a published abstract, author Summary, or study summary. Import new text only after matching the DOI or confirming an exact title. Do not change publication years or citations from abstract-source metadata. Entries without supplied abstracts have no disclosure control. The Publications archive displays DOI and title-targeted Scholar links, with topic metadata retained for filtering but no topic badges.

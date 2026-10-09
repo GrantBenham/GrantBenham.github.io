@@ -350,22 +350,6 @@
     "reviewNote": null
   },
   {
-    "id": "pub-2007-23",
-    "year": 2007,
-    "authors": "Benham, G. & Nash, M. R.",
-    "title": "Ask the brains: Hypnosis",
-    "citation": "Benham, G. & Nash, M. R. (2007). Ask the brains: Hypnosis. Scientific American Mind, 18(3), 86.",
-    "doi": null,
-    "type": "Other scholarly publication",
-    "topics": [
-      "Earlier research"
-    ],
-    "featured": false,
-    "status": "published",
-    "source": "October 2026 CV — Published section",
-    "reviewNote": null
-  },
-  {
     "id": "pub-2006-24",
     "year": 2006,
     "authors": "Benham, G., Huerta, A., & Salazar, S.",
@@ -418,7 +402,7 @@
     "authors": "Nash, M. R. & Benham, G.",
     "title": "The truth and the hype of hypnosis",
     "citation": "Nash, M. R. & Benham, G. (2005). The truth and the hype of hypnosis. Scientific American Mind, 16(2), 46-53.",
-    "doi": "10.1038/scientificamericanmind0605-46",
+    "doi": null,
     "type": "Other scholarly publication",
     "topics": [
       "Earlier research"
