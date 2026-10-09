@@ -4,7 +4,6 @@ const path = Astro.url.pathname.replace(/\/$/, '');
 ---
 <header class="site-header">
   <div class="container header-inner">
-    <a class="wordmark" href={localUrl('/')}>{site.name}</a>
     <button class="menu-toggle" aria-controls="main-navigation" aria-expanded="false" hidden>Menu <span aria-hidden="true">☰</span></button>
     <nav id="main-navigation" aria-label="Main navigation">
       {site.nav.map(item => <a href={localUrl(item.path)} aria-current={path === localUrl(item.path).replace(/\/$/, '') ? 'page' : undefined}>{item.label}</a>)}

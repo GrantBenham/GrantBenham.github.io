@@ -54,9 +54,9 @@ The existing biography, education, appointments, awards, and contact information
 
 ## What changed
 
-Navy backgrounds, off-white serif headings, pale blue-gray body text, copper links and buttons, thin borders, and consistent dark cards and search controls. Lightweight, decorative SVG waves and connections appear beside the portrait and research headings. There are no campus photographs, institutional logos, new marketing statements, animations, or image color filters.
+Navy backgrounds, off-white serif headings, pale blue-gray body text, copper links and buttons, thin borders, and consistent dark cards and search controls. Behind the portrait, a single schematic P–QRS–T trace in blue is paired with a broad copper circadian wave. The research headings retain their small decorative wave illustrations. There are no campus photographs, institutional logos, new marketing statements, animations, or image color filters.
 
-The new brief explicitly requests your name in the header and a footer with plain-text affiliation and professional links; those are restored. The seven menu destinations, Teaching-before-Software order, combined Home/About content, alumni order and 120-pixel photos, software selection, and archive functionality are preserved.
+Following your latest revision, the name/link at the upper left is removed. The plain-text footer requested in the redesign brief remains. The seven menu destinations, Teaching-before-Software order, combined Home/About content, alumni order and 120-pixel photos, software selection, and archive functionality are preserved.
 
 Central colors, surfaces, typography, spacing, radius, gradient, and shadow settings live in `src/styles/theme.css`. Layout rules remain in `src/styles/global.css`. There is no theme toggle or new framework.
 
@@ -65,9 +65,9 @@ Central colors, surfaces, typography, spacing, radius, gradient, and shadow sett
 - Astro validation: no errors or warnings. Static build and internal link/asset/anchor checks passed for all nine generated HTML routes, including the legacy About redirect and 404 page.
 - All 17 browser tests passed. These exercise navigation, publication and presentation search/filter/reset, PDF download and lazy viewer, CV and portrait, alumni profiles, and operation without JavaScript.
 - Automated WCAG A/AA checks passed on all seven main pages and the open mobile menu. Layouts checked at 1440, 768, 390, and 320 pixels wide with no horizontal overflow.
-- Main text, link destinations, and image paths compared against the live website: identical on all seven pages. Data files, original media, dependency files, and deployment workflows are unchanged.
+- Main text and link destinations are preserved on all seven pages. Image paths are unchanged except for the intentionally revised homepage portrait. Structured content data, original media, dependency files, and deployment workflows remain unchanged.
 - The six linked software repositories were reachable through GitHub. The unchanged gbEFA application URL accepted a GET request (HTTP 202); the external application itself was not functionally tested. External Google Scholar and a sampled DOI destination reject automated requests in this environment; their unchanged destinations were preserved. Automated accessibility checks do not replace a full human accessibility audit.
-- Screenshots were generated from the built website and visually inspected. The current portrait is retained; it is the same photograph used on the white live website.
+- Screenshots were generated from the built website and visually inspected. The new portrait is an AI-generated transparent cutout derived from your supplied dark mockup, saved as responsive WebP assets. Its likeness is part of this design review. The original white-site portrait is retained in the repository for recovery.
 - The public homepage was compared byte for byte before and after the work and remains unchanged.
 
 ## Interactive preview — optional, for someone running the site locally
