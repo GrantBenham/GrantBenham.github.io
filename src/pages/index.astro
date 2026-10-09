@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ResearchCard from '../components/ResearchCard.astro';
+import {site, localUrl} from '../config';
+---
+<Layout>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Psychological Science · UTRGV</p>
+        <h1>{site.name}</h1>
+        <p class="hero-role">{site.role}</p>
+        <p class="hero-institution">{site.institution}</p>
+        <span class="rule" aria-hidden="true"></span>
+        <h2>Research on psychological stress, sleep, sensitivity, and health.</h2>
+        <p class="hero-description">Examining psychological and physiological processes and their associations with health and well-being.</p>
+        <div class="button-row"><a class="button" href={localUrl('/research/')}>Explore research <span aria-hidden="true">→</span></a><a class="button secondary" href={localUrl('/publications/')}>View publications <span aria-hidden="true">→</span></a></div>
+      </div>
+      <figure class="portrait"><div class="portrait-frame"><img src={localUrl(site.portrait)} srcset={`${localUrl(site.portraitSmall)} 320w, ${localUrl(site.portrait)} 600w`} sizes="(max-width: 700px) 170px, 300px" width={site.portraitWidth} height={site.portraitHeight} alt="Grant Benham" fetchpriority="high" /></div><figcaption>Grant Benham · {site.location}</figcaption></figure>
+    </div>
+  </section>
+  <section class="container home-research" aria-labelledby="research-heading">
+    <div class="section-heading"><h2 id="research-heading">Research</h2><a class="text-link" href={localUrl('/research/')}>About my research <span aria-hidden="true">→</span></a></div>
+    <div class="two-columns">
+      <ResearchCard title="Stress, Sleep & Health" description="Investigating how psychological stress and sleep relate to physical and psychological health." anchor="stress-sleep-health" />
+      <ResearchCard title="Sensory Processing Sensitivity" description="Understanding how individual differences in sensitivity relate to psychological functioning, stress, sleep, and health." anchor="sensitivity" variant="sensitivity" />
+    </div>
+  </section>
+  <section class="lab-band" aria-labelledby="lab-heading"><div class="container lab-band-inner"><div><h2 id="lab-heading">{site.labName}</h2><p>Research and student mentorship at the intersection of psychological, behavioral, and physiological approaches to stress, sleep, and health.</p></div><a class="text-link" href={localUrl('/lab/')}>About the lab <span aria-hidden="true">→</span></a></div></section>
+</Layout>

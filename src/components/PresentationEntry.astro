@@ -1,0 +1,29 @@
+---
+import type { Presentation } from '../data/content';
+import {localUrl} from '../config';
+interface Props { presentation: Presentation; }
+const {presentation:p} = Astro.props;
+---
+<article id={p.id} class="citation presentation" data-archive-item data-year={p.year} data-type={p.format} data-topics={JSON.stringify(p.topics)} data-search={`${p.citation} ${p.conference} ${p.topics.join(' ')}`}>
+  {p.thumbnail && <a href={p.pdf ? localUrl(p.pdf) : `#${p.id}`} class="poster-thumbnail"><img src={localUrl(p.thumbnail)} alt={`Poster thumbnail: ${p.title}`} width="180" height="240" loading="lazy" /></a>}
+  <div class="presentation-body">
+    <div class="citation-meta"><span>{p.year} · {p.month}</span><span>{p.format}</span></div>
+    <h3>{p.title}</h3><p class="authors">{p.authors}</p><p>{p.conference}</p>
+    <details class="source-citation"><summary>Full citation</summary><p>{p.citation}</p></details>
+    <div class="citation-links">{p.topics.map(topic => <span class="tag">{topic}</span>)}
+      {p.pdf && <a href={localUrl(p.pdf)} download>Download presentation PDF</a>}
+    </div>
+    {p.pdf && <details class="pdf-viewer"><summary>View presentation PDF</summary>
+      <p><a href={localUrl(p.pdf)}>Open PDF directly</a> if your browser does not support the embedded viewer.</p>
+      <iframe data-pdf-src={localUrl(p.pdf)} title={`Presentation PDF: ${p.title}`} loading="lazy"></iframe>
+    </details>}
+  </div>
+</article>
+<script>
+  document.querySelectorAll<HTMLDetailsElement>('.pdf-viewer').forEach(viewer => {
+    viewer.addEventListener('toggle', () => {
+      const frame = viewer.querySelector<HTMLIFrameElement>('iframe');
+      if (viewer.open && frame && !frame.getAttribute('src')) frame.src = frame.dataset.pdfSrc!;
+    });
+  });
+</script>

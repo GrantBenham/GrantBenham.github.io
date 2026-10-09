@@ -1,0 +1,16 @@
+---
+import type { Publication } from '../data/content';
+import {localUrl} from '../config';
+interface Props { publication: Publication; compact?: boolean; }
+const {publication:p, compact=false} = Astro.props;
+---
+<article id={p.id} class:list={['citation', {compact}]} data-archive-item={!compact || undefined} data-year={p.year} data-type={p.type} data-topics={JSON.stringify(p.topics)} data-search={`${p.citation} ${p.topics.join(' ')} ${p.doi || ''}`}>
+  <div class="citation-meta"><span>{p.year}</span><span>{p.type}</span></div>
+  <h3>{compact ? <a href={localUrl(`/publications/#${p.id}`)}>{p.title}</a> : p.title}</h3>
+  <p class="citation-text">{p.citation}</p>
+  <div class="citation-links">
+    {p.doi && <a href={`https://doi.org/${p.doi}`}>DOI: {p.doi} <span aria-hidden="true">→</span></a>}
+    {p.topics.map(topic => <span class="tag">{topic}</span>)}
+  </div>
+  {p.reviewNote && <p class="content-note">{p.reviewNote}</p>}
+</article>

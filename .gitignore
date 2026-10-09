@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.astro/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+.DS_Store
+.migration/
+__pycache__/
+.review/

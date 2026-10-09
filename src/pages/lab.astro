@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import {alumni} from '../data/content';
+import {site, localUrl} from '../config';
+---
+<Layout title="Lab" description={`Research and mentorship in the ${site.labName} at UTRGV.`}>
+  <div class="container page-content">
+    <PageHeading title={site.labName} eyebrow="Research & mentorship" intro="Studying relationships among psychological stress, sleep, individual differences, and health at UTRGV." />
+    <div class="two-columns"><section class="prose"><h2>About the lab</h2><p>The lab brings together psychological, behavioral, and physiological approaches to the study of stress, sleep, and health. Its work includes research on sensory processing sensitivity and other individual differences.</p><p>Student collaboration is reflected in the lab’s publications and conference presentations. Research projects have included self-report studies and physiological measures such as heart rate variability.</p><a class="text-link" href={localUrl('/research/')}>Explore the research →</a></section><section class="contact-card"><h2>Research mentorship</h2><p>Students interested in research mentorship can contact Grant Benham to discuss their interests and inquire about current opportunities.</p><p>Availability and current lab membership should be confirmed directly.</p><a class="text-link" href={`mailto:${site.email}`}>Contact Grant Benham →</a></section></div>
+    <section class="content-section"><h2>Lab alumni</h2><p>Past lab members and student researchers, with names and photographs migrated from the existing lab alumni gallery.</p>
+      {alumni.length ? <div class="alumni-grid">{alumni.map(person => <article class="alumni-card">{person.photo ? <img src={localUrl(person.photo)} alt={person.photoAlt || person.name} width="320" height="320" loading="lazy" /> : <div class="photo-placeholder" aria-hidden="true">Photograph forthcoming</div>}<h3>{person.name}</h3>{person.years && <p>{person.years}</p>}{person.description && <p>{person.description}</p>}</article>)}</div> : <div class="empty-state"><p>Alumni photographs and profiles are being prepared for this website.</p><p class="muted">Historical lab members will be listed as alumni, rather than assumed to be current members.</p></div>}
+    </section>
+    <section class="content-section"><div class="section-heading"><h2>Student research</h2><a class="text-link" href={localUrl('/presentations/')}>Conference presentation archive →</a></div><p class="prose">The presentation archive documents student-led and collaborative research across multiple conference venues, including the Association for Psychological Science and the Southwestern Psychological Association.</p></section>
+  </div>
+</Layout>

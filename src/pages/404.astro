@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {localUrl} from '../config';
+---
+<Layout title="Page not found"><div class="container page-content prose"><p class="eyebrow">404</p><h1>Page not found</h1><p>This page may have moved. Use the navigation above or return to the homepage.</p><a class="button" href={localUrl('/')}>Return home →</a></div></Layout>

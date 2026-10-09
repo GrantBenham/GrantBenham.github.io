@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import Archive from '../components/Archive.astro';
+import PresentationEntry from '../components/PresentationEntry.astro';
+import {presentations} from '../data/content';
+const years=[...new Set(presentations.map(p=>p.year))];
+const types=[...new Set(presentations.map(p=>p.format))].sort();
+const topics=[...new Set(presentations.flatMap(p=>p.topics))].sort();
+---
+<Layout title="Presentations" description="Search conference papers, posters, and presentations by Grant Benham, students, and collaborators.">
+  <div class="container page-content">
+    <PageHeading title="Presentations" eyebrow="Conference archive" intro="Conference papers and posters by Grant Benham, students, and collaborators, including student projects presented with faculty mentorship." />
+    <p class="archive-note">Entries are transcribed from the October 2026 CV. Available presentation PDFs and thumbnails have been migrated from the lab’s existing website.</p>
+    <Archive kind="Presentations" years={years} types={types} topics={topics} total={presentations.length}>{presentations.map(presentation => <PresentationEntry presentation={presentation} />)}</Archive>
+  </div>
+</Layout>

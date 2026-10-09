@@ -1,0 +1,61 @@
+---
+interface Props { kind: string; years: number[]; types: string[]; topics: string[]; total: number; }
+const {kind, years, types, topics, total} = Astro.props;
+---
+<section class="archive" data-archive aria-label={`${kind} archive`}>
+  <form class="archive-controls" role="search" aria-label={`Search ${kind.toLowerCase()}`} hidden>
+    <div class="search-field"><label for="archive-query">Search {kind.toLowerCase()}</label><input id="archive-query" name="q" type="search" placeholder="Title, author, keyword…" aria-controls="archive-results" /></div>
+    <div><label for="archive-year">Year</label><select id="archive-year" name="year"><option value="">All years</option>{years.map(year => <option value={year}>{year}</option>)}</select></div>
+    <div><label for="archive-type">Type</label><select id="archive-type" name="type"><option value="">All types</option>{types.map(type => <option>{type}</option>)}</select></div>
+    <div><label for="archive-topic">Topic</label><select id="archive-topic" name="topic"><option value="">All topics</option>{topics.map(topic => <option>{topic}</option>)}</select></div>
+    <button class="reset-button" type="reset">Clear filters</button>
+  </form>
+  <noscript><p class="content-note">All entries are shown below. Enable JavaScript for search and filters, or use your browser’s Find command.</p></noscript>
+  <p class="result-count" role="status" aria-live="polite" aria-atomic="true" data-result-count>{total} {kind.toLowerCase()}</p>
+  <div id="archive-results" class="archive-results"><slot /></div>
+  <p class="empty-results" hidden>No entries match these filters. Try another term or clear the filters.</p>
+</section>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-archive]').forEach(archive => {
+    const form = archive.querySelector<HTMLFormElement>('form')!;
+    const query = form.querySelector<HTMLInputElement>('[name=q]')!;
+    const year = form.querySelector<HTMLSelectElement>('[name=year]')!;
+    const type = form.querySelector<HTMLSelectElement>('[name=type]')!;
+    const topic = form.querySelector<HTMLSelectElement>('[name=topic]')!;
+    const count = archive.querySelector<HTMLElement>('[data-result-count]')!;
+    const empty = archive.querySelector<HTMLElement>('.empty-results')!;
+    const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const items = Array.from(archive.querySelectorAll<HTMLElement>('[data-archive-item]')).map(element => ({
+      element, search: normalize(element.dataset.search || ''), topics: JSON.parse(element.dataset.topics || '[]') as string[],
+    }));
+    const params = new URLSearchParams(location.search);
+    for (const field of [query, year, type, topic]) {
+      const value = params.get(field.name);
+      if (value !== null) field.value = value;
+    }
+    function update(syncUrl=true) {
+      const words = normalize(query.value.trim()).split(/\s+/).filter(Boolean);
+      let visible=0;
+      items.forEach(item => {
+        const show = words.every(word => item.search.includes(word)) && (!year.value || item.element.dataset.year===year.value) && (!type.value || item.element.dataset.type===type.value) && (!topic.value || item.topics.includes(topic.value));
+        item.element.hidden = !show; if (show) visible++;
+      });
+      count.textContent = `${visible} of ${items.length} entries`;
+      empty.hidden = visible>0;
+      if (syncUrl) {
+        const url = new URL(location.href);
+        for (const field of [query, year, type, topic]) { if (field.value) url.searchParams.set(field.name,field.value); else url.searchParams.delete(field.name); }
+        history.replaceState(null, '', url);
+      }
+    }
+    form.hidden=false;
+    form.addEventListener('submit',event => event.preventDefault());
+    form.addEventListener('input',()=>update());
+    form.addEventListener('reset',event=>{
+      event.preventDefault();
+      for (const field of [query,year,type,topic]) field.value='';
+      update();
+    });
+    update(false);
+  });
+</script>

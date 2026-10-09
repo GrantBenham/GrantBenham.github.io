@@ -1,0 +1,41 @@
+---
+import Navigation from '../components/Navigation.astro';
+import {site, localUrl} from '../config';
+import '../styles/global.css';
+import '@fontsource/source-serif-4/latin-400.css';
+import '@fontsource/source-serif-4/latin-600.css';
+import '@fontsource/source-sans-3/latin-400.css';
+import '@fontsource/source-sans-3/latin-600.css';
+interface Props { title?: string; description?: string; }
+const {title, description=site.description} = Astro.props;
+const pageTitle = title ? `${title} | ${site.name}` : `${site.name} | Psychological Science`;
+const canonical = new URL(Astro.url.pathname, site.url).href;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#142c46" />
+    <title>{pageTitle}</title>
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={localUrl('/favicon.svg')} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Navigation />
+    <main id="main" tabindex="-1"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><p class="footer-name">{site.name}</p><p>{site.institution}<br />{site.location}</p></div>
+        <div class="footer-links"><a href={`mailto:${site.email}`}>{site.email}</a><a href={site.scholar}>Google Scholar →</a><a href={site.github}>GitHub →</a><a href={localUrl(site.cv)} download>Curriculum vitae</a></div>
+      </div>
+      <div class="container footer-note">An academic website · <a href={localUrl('/about/')}>About & contact</a></div>
+    </footer>
+  </body>
+</html>

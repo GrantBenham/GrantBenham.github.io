@@ -1,0 +1,25 @@
+{
+  "education": [
+    {"year": "2000", "degree": "Ph.D., Experimental Psychology", "institution": "University of Tennessee, Knoxville"},
+    {"year": "1990", "degree": "B.Sc. (Hons), Psychology", "institution": "The University of Plymouth, England"}
+  ],
+  "appointments": [
+    {"period": "2015–present", "role": "Professor, Department of Psychological Science", "institution": "The University of Texas Rio Grande Valley"},
+    {"period": "2013–2015", "role": "Professor, Department of Psychology", "institution": "The University of Texas – Pan American"},
+    {"period": "2007–2013", "role": "Associate Professor, Department of Psychology", "institution": "The University of Texas – Pan American"},
+    {"period": "2002–2007", "role": "Assistant Professor, Department of Psychology & Anthropology", "institution": "The University of Texas – Pan American"},
+    {"period": "2002", "role": "Adjunct Professor, Behavioral Sciences Department", "institution": "Tennessee Wesleyan College"},
+    {"period": "1997–2002", "role": "Managing Editor", "institution": "The International Journal of Clinical and Experimental Hypnosis"}
+  ],
+  "awards": [
+    {"year": "2017", "name": "Psi Chi Florence L. Denmark Faculty Advisor Award"},
+    {"year": "2017", "name": "UTRGV Faculty Advisor of the Year Award"},
+    {"year": "2015", "name": "UTPA Excellence in Online Teaching Award"},
+    {"year": "2015", "name": "UTPA College of Social and Behavioral Sciences Award for Mentoring"},
+    {"year": "2007", "name": "Society for Clinical and Experimental Hypnosis Henry Guze Award for Best Research Paper"},
+    {"year": "2005", "name": "American Psychological Association, Division 30 Early Career Achievement Award"}
+  ],
+  "undergraduateCourses": ["General Psychology", "Mind-Body Interactions", "Health Psychology", "Statistics", "Developmental Psychology: Lifespan", "Physiological Psychology", "Stress Management", "Internship", "Research Methods"],
+  "graduateCourses": ["Research Design"],
+  "otherCourses": ["Advanced Research Seminar"]
+}

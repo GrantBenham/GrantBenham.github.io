@@ -1,0 +1,16 @@
+---
+import {localUrl} from '../config';
+interface Props { title: string; description: string; anchor: string; variant?: 'waves' | 'sensitivity'; }
+const {title, description, anchor, variant='waves'} = Astro.props;
+---
+<article class={`research-card ${variant}`}>
+  <div class="card-illustration" aria-hidden="true">
+    <svg viewBox="0 0 320 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {Array.from({length: 13}, (_, i) => <path d={`M-20 ${40+i*5} C60 ${-30+i*6} 90 ${190-i*5} 165 ${70+i*3} S260 ${10+i*8} 340 ${80+i*4}`} stroke="currentColor" stroke-width=".75" />)}
+      {variant==='sensitivity' && <>{[65,110,165,215,265].map((x,i) => <circle cx={x} cy={55+(i%3)*20} r="3" fill="currentColor" />)}</>}
+    </svg>
+  </div>
+  <p class="eyebrow">Research theme</p>
+  <h3>{title}</h3><p>{description}</p>
+  <a class="text-link" href={localUrl(`/research/#${anchor}`)}>Explore this theme <span aria-hidden="true">→</span><span class="sr-only">: {title}</span></a>
+</article>

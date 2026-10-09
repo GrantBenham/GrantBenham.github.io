@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import Archive from '../components/Archive.astro';
+import PublicationCitation from '../components/PublicationCitation.astro';
+import {publications} from '../data/content';
+const years = [...new Set(publications.map(p=>p.year))];
+const types = [...new Set(publications.map(p=>p.type))].sort();
+const topics = [...new Set(publications.flatMap(p=>p.topics))].sort();
+---
+<Layout title="Publications" description="Search published journal articles, book chapters, and other scholarly publications by Grant Benham and collaborators.">
+  <div class="container page-content">
+    <PageHeading title="Publications" eyebrow="Published scholarship" intro="Journal articles, book chapters, and other scholarly publications. Search by title, author, or keyword, and filter by year, type, or research topic." />
+    <p class="archive-note">Citations follow the October 2026 CV. DOI links lead to publisher records; copyrighted article PDFs are not hosted here. Research topics are editorial tags.</p>
+    <Archive kind="Publications" years={years} types={types} topics={topics} total={publications.length}>{publications.map(publication => <PublicationCitation publication={publication} />)}</Archive>
+  </div>
+</Layout>

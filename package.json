@@ -1,0 +1,29 @@
+{
+  "name": "grant-benham-academic-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host 0.0.0.0",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/check-links.mjs",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 0.0.0.0 --ignore-lock",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource/source-sans-3": "5.2.9",
+    "@fontsource/source-serif-4": "5.2.8",
+    "astro": "7.3.8",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@axe-core/playwright": "4.11.1",
+    "@playwright/test": "1.64.0",
+    "@types/node": "24.19.1",
+    "typescript": "5.9.3"
+  }
+}
