@@ -103,8 +103,8 @@ test('migrated PDF, thumbnail, download, and lazy viewer work',async({page,reque
 });
 test('alumni gallery preserves caption names without duplicate or current-member claims',async({page})=>{
   await page.goto('lab/');
-  await expect(page.locator('.alumni-card')).toHaveCount(47);
+  await expect(page.locator('.alumni-card')).toHaveCount(49);
   await expect(page.locator('.alumni-card h3').filter({hasText:/^Hoshi Perez$/})).toHaveCount(1);
-  await expect(page.locator('.alumni-card').filter({hasText:'Madison Rosas'})).toHaveCount(0);
+  await expect(page.locator('.alumni-card').filter({hasText:'Madison Rosas'})).toHaveCount(1);
   await expect(page.getByRole('heading',{name:'Lab alumni'})).toBeVisible();
 });

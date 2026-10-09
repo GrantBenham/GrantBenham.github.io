@@ -397,5 +397,19 @@
     "site_file": "/images/grant-benham.webp",
     "source_url": "https://stresslab.weebly.com/uploads/7/0/1/3/70135909/gbheadshot2-215-175_orig.jpg",
     "notes": "Original 651 × 800 image verified visually; optimized to 600 and 320 pixel widths."
+  },
+  {
+    "site_file": "/images/alumni/karla-chapa.webp",
+    "caption": "Karla Chapa",
+    "source_url": "https://stresslab.weebly.com/uploads/7/0/1/3/70135909/karla-chapa-2023.jpg",
+    "source_sha256": "1c70f7b8aa0b17de6d6d1336d02b3f7227de1f952142d7e0a285bed406530d9d",
+    "notes": "Identity/alumni status confirmed by Grant Benham."
+  },
+  {
+    "site_file": "/images/alumni/madison-rosas.webp",
+    "caption": "Madison Rosas",
+    "source_url": "https://stresslab.weebly.com/uploads/7/0/1/3/70135909/editor/madison-rosas-ra-2025.jpg?1754517713",
+    "source_sha256": "4e3e6616141c1856c7cfde9dfe98be4839c9e2cf9f05b47818d98c18c8f6533e",
+    "notes": "Identity/alumni status confirmed by Grant Benham."
   }
 ]

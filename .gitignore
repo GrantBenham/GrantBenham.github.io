@@ -10,3 +10,4 @@ test-results/
 .migration/
 __pycache__/
 .review/
+bibliography-report.json

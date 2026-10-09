@@ -144,10 +144,10 @@
   },
   {
     "id": "pub-2020-10",
-    "year": 2020,
+    "year": 2022,
     "authors": "Benham, G.",
     "title": "Sleep Paralysis in College Students",
-    "citation": "Benham, G. (2020). Sleep Paralysis in College Students. Journal of American College Health, 70(5), 1286-1291.",
+    "citation": "Benham, G. (2022). Sleep Paralysis in College Students. Journal of American College Health, 70(5), 1286-1291.",
     "doi": "10.1080/07448481.2020.1799807",
     "type": "Journal article",
     "topics": [
@@ -155,7 +155,7 @@
     ],
     "featured": false,
     "status": "published",
-    "source": "October 2026 CV — Published section",
+    "source": "October 2026 CV — Published section; issue year confirmed by Grant Benham",
     "reviewNote": null
   },
   {
@@ -371,13 +371,13 @@
     "authors": "Benham, G., Huerta, A., & Salazar, S.",
     "title": "Illicit prescription stimulant use among college students living near the U.S. - Mexico Border",
     "citation": "Benham, G., Huerta, A., & Salazar, S. (2006). Illicit prescription stimulant use among college students living near the U.S. - Mexico Border. Hispanic Health Care International, 4(4), 195-202.",
-    "doi": null,
+    "doi": "10.1891/hhci-v4i4a001",
     "type": "Journal article",
     "topics": [],
     "featured": false,
     "status": "published",
-    "source": "October 2026 CV — Published section",
-    "reviewNote": "The DOI listed in the CV appears inconsistent with the article’s journal and year. DOI withheld pending verification."
+    "source": "October 2026 CV — Published section; DOI corrected by Grant Benham",
+    "reviewNote": null
   },
   {
     "id": "pub-2006-25",
