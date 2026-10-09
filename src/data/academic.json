@@ -19,7 +19,6 @@
     {"year": "2007", "name": "Society for Clinical and Experimental Hypnosis Henry Guze Award for Best Research Paper"},
     {"year": "2005", "name": "American Psychological Association, Division 30 Early Career Achievement Award"}
   ],
-  "undergraduateCourses": ["General Psychology", "Mind-Body Interactions", "Health Psychology", "Statistics", "Developmental Psychology: Lifespan", "Physiological Psychology", "Stress Management", "Internship", "Research Methods"],
-  "graduateCourses": ["Research Design"],
-  "otherCourses": ["Advanced Research Seminar"]
+  "undergraduateCourses": ["General Psychology", "Mind-Body Interactions", "Health Psychology", "Statistics", "Physiological Psychology", "Stress Management", "Internship", "Research Methods", "Advanced Research Seminar"],
+  "graduateCourses": ["Research Design"]
 }
