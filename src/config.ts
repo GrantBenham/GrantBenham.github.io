@@ -27,6 +27,7 @@ export const site = {
     {label: 'Presentations', path: '/presentations/'},
     {label: 'Lab', path: '/lab/'},
     {label: 'Teaching', path: '/teaching/'},
+    {label: 'Service', path: '/service/'},
     {label: 'Software', path: '/software/'},
   ],
 } as const;
