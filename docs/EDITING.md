@@ -45,6 +45,7 @@ Edit `src/data/alumni.json`. Each record needs:
 - `photo`: a local `/images/…` path, or `null`.
 - `photoAlt`: useful alt text, or `null` to use the person's name.
 - `description`: a verified short biography, or `null`.
+- `linkedin`: the matching HTTPS LinkedIn profile URL, or `null`.
 
 The gallery never labels alumni as current members. Use approved names, photographs, and biographies. A missing photo displays a neutral “Photograph forthcoming” tile for the verified person. Never infer full names, lab dates, current jobs, or current membership from initials on conference citations.
 
@@ -55,3 +56,5 @@ The current portrait is a verified 651 × 800 original recovered from Weebly, op
 For alumni, create approximately 640 × 640 pixel WebP images, with approved crops. Poster thumbnails should keep the poster's aspect ratio and can be about 360 pixels wide; CSS fits them without cropping. Large original photos and research assets belong in a local source archive rather than the shipped website.
 
 Replace the CV under `public/documents/`, and update its label and path in the site configuration. PDF is supported if an approved PDF is available; the initial download is the original DOCX supplied by the owner.
+
+Alumni `linkedin` fields contain the HTTPS profile link, or `null` when no matching profile is known. Linked photos use this field. Home includes the academic biography and contact details; the old About address redirects to that section.

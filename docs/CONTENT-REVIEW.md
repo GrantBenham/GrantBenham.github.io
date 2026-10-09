@@ -34,3 +34,7 @@ The website includes photos and presentation PDFs recovered from your existing l
 The archive contains 32 published works and 123 presentations. DOI links go to the articles; copyrighted article PDFs are not uploaded. No claim of “publisher verified” is displayed on the website.
 
 The main academic source is your October 2026 CV, supplemented by your corrections and the original Weebly pages. All 29 supplied DOI identifiers matched Crossref records for the corresponding publications, including the corrected stimulant-use DOI. Issue years were checked where Crossref supplied them. Three works have no DOI in the supplied CV; no DOI has been invented for them. The lookup records are saved separately for maintenance.
+
+## Latest layout updates
+
+Home now includes the biography, education, appointments, awards, and contact details previously on About. The repeated footer and home research/lab summaries were removed. Alumni headshots are compact; 44 matching LinkedIn profile links were restored from Weebly. No reliable source link was available for Frankie Enriquez, Javier Torres, Helen Kang, Ysabel Hinojosa, or Karla Chapa. Karla’s old photo linked incorrectly to Hoshi’s profile, so that link was omitted. Jordan is listed as Dr. Jordan Buren (nee Kenemore).

@@ -1,12 +1,12 @@
 # Grant Benham academic website
 
-A responsive, static Astro website for Grant Benham, Ph.D. Built for GitHub Pages, with eight main pages, client-side publication and presentation archives, local fonts, and structured JSON content. No database, analytics, remote fonts, or runtime credentials are needed.
+A responsive, static Astro website for Grant Benham, Ph.D. Built for GitHub Pages, with seven main pages and a redirect from the former About page, client-side publication and presentation archives, local fonts, and structured JSON content. No database, analytics, remote fonts, or runtime credentials are needed.
 
 **Status:** initial implementation for review. The corrected initial version is published at https://grantbenham.github.io/. The CV is the academic source; six Weebly pages and 75 assets have been archived, and 47 alumni photos plus 16 presentation PDFs have been migrated. See [content review](docs/CONTENT-REVIEW.md).
 
 ## Review the design
 
-Open [the screenshot preview](docs/PREVIEW.md) directly on GitHub to see all eight pages, including desktop/mobile homepage views. Screenshots do not publish the website.
+Open [the screenshot preview](docs/PREVIEW.md) directly on GitHub to see the earlier design, including desktop/mobile homepage views. Screenshots do not publish the website.
 
 ## Run locally
 

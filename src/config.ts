@@ -21,7 +21,7 @@ export const site = {
   github: 'https://github.com/GrantBenham',
   legacy: 'https://stresslab.weebly.com/',
   nav: [
-    {label: 'About', path: '/about/'},
+    {label: 'Home', path: '/'},
     {label: 'Research', path: '/research/'},
     {label: 'Publications', path: '/publications/'},
     {label: 'Presentations', path: '/presentations/'},

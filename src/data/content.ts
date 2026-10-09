@@ -29,6 +29,7 @@ const softwareSchema = z.object({
 const alumniSchema = z.object({
   id: z.string(), name: z.string().min(1), years: z.string().nullable(),
   photo: localAsset.nullable(), photoAlt: z.string().nullable(),
+  linkedin: nullableLink.refine(link => link === null || (new URL(link).hostname === 'www.linkedin.com' && new URL(link).pathname.startsWith('/in/')), 'Expected a LinkedIn profile URL'),
   description: z.string().nullable(), source: z.string(),
 });
 export type Publication = z.infer<typeof publicationSchema>;

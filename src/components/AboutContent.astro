@@ -1,0 +1,13 @@
+---
+import academic from '../data/academic.json';
+import {site, localUrl} from '../config';
+---
+<section id="about" class="container page-content" aria-label="About Grant Benham">
+    <div class="about-intro two-columns">
+      <div class="prose"><h2>Academic biography</h2><p>Grant Benham is a professor in the Department of Psychological Science at The University of Texas Rio Grande Valley. His research examines psychological stress, sleep, sensory processing sensitivity, and their relationships with physical and psychological health.</p><p>He earned his Ph.D. in Experimental Psychology at the University of Tennessee, Knoxville, in 2000, following an honors degree in Psychology at the University of Plymouth in England. He joined The University of Texas – Pan American in 2002 and has served as a professor at UTRGV since 2015.</p><p>His work combines self-report methods with physiological and psychophysiological measurement. His teaching spans psychology, health, research methods, and statistics, alongside student research mentorship.</p><a class="button" href={localUrl(site.cv)} download>{site.cvLabel} <span aria-hidden="true">↓</span></a></div>
+      <aside class="contact-card"><p class="eyebrow">Contact & professional profiles</p><h2>Get in touch</h2><a href={`mailto:${site.email}`}>{site.email}</a><p>{site.institution}<br />{site.location}</p><div class="link-list"><a href={site.scholar}>Google Scholar →</a><a href={site.github}>GitHub →</a><a href={localUrl('/research/')}>Research overview →</a></div></aside>
+    </div>
+    <section class="content-section"><h2>Education</h2><div class="timeline">{academic.education.map(item => <div class="timeline-row"><span class="timeline-date">{item.year}</span><div><h3>{item.degree}</h3><p>{item.institution}</p></div></div>)}</div></section>
+    <section class="content-section"><h2>Academic appointments</h2><div class="timeline">{academic.appointments.map(item => <div class="timeline-row"><span class="timeline-date">{item.period}</span><div><h3>{item.role}</h3><p>{item.institution}</p></div></div>)}</div></section>
+    <section class="content-section"><h2>Selected honors & awards</h2><ul class="award-list">{academic.awards.map(item => <li><span>{item.year}</span>{item.name}</li>)}</ul></section>
+</section>

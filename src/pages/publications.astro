@@ -10,8 +10,7 @@ const topics = [...new Set(publications.flatMap(p=>p.topics))].sort();
 ---
 <Layout title="Publications" description="Search published journal articles, book chapters, and other scholarly publications by Grant Benham and collaborators.">
   <div class="container page-content">
-    <PageHeading title="Publications" eyebrow="Published scholarship" intro="Journal articles, book chapters, and other scholarly publications. Search by title, author, or keyword, and filter by year, type, or research topic." />
-    <p class="archive-note">Published journal articles, book chapters, and other scholarly work. DOI links lead to publisher records; copyrighted article PDFs are not hosted here. Research topics are editorial tags.</p>
+    <PageHeading title="Publications" intro="Journal articles, book chapters, and other scholarly publications. Search by title, author, or keyword, and filter by year, type, or research topic." />
     <Archive kind="Publications" years={years} types={types} topics={topics} total={publications.length}>{publications.map(publication => <PublicationCitation publication={publication} />)}</Archive>
   </div>
 </Layout>

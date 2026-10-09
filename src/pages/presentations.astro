@@ -10,8 +10,7 @@ const topics=[...new Set(presentations.flatMap(p=>p.topics))].sort();
 ---
 <Layout title="Presentations" description="Search conference papers, posters, and presentations by Grant Benham, students, and collaborators.">
   <div class="container page-content">
-    <PageHeading title="Presentations" eyebrow="Conference archive" intro="Conference papers and posters by Grant Benham, students, and collaborators, including student projects presented with faculty mentorship." />
-    <p class="archive-note">Entries are transcribed from the October 2026 CV. Available presentation PDFs and thumbnails have been migrated from the lab’s existing website.</p>
+    <PageHeading title="Presentations" />
     <Archive kind="Presentations" years={years} types={types} topics={topics} total={presentations.length}>{presentations.map(presentation => <PresentationEntry presentation={presentation} />)}</Archive>
   </div>
 </Layout>

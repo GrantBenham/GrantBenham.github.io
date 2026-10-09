@@ -1,12 +1,13 @@
 [
   {
     "id": "jordan-buren-nee-kenemore",
-    "name": "Jordan Buren (nee Kenemore)",
+    "name": "Dr. Jordan Buren (nee Kenemore)",
     "years": null,
     "photo": "/images/alumni/jordan-buren-nee-kenemore.webp",
-    "photoAlt": "Portrait of Jordan Buren (nee Kenemore)",
-    "description": "Former Ph.D. student researcher.",
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "photoAlt": "Portrait of Dr. Jordan Buren (nee Kenemore)",
+    "description": null,
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/jordankenemore"
   },
   {
     "id": "archit-nangavaram",
@@ -15,7 +16,8 @@
     "photo": "/images/alumni/archit-nangavaram.webp",
     "photoAlt": "Portrait of Archit Nangavaram",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/archit-nangavaram"
   },
   {
     "id": "sabrina-alaniz",
@@ -24,7 +26,8 @@
     "photo": "/images/alumni/sabrina-alaniz.webp",
     "photoAlt": "Portrait of Sabrina Alaniz",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/sabrina-alaniz"
   },
   {
     "id": "kaycee-maldonado",
@@ -33,7 +36,8 @@
     "photo": "/images/alumni/kaycee-maldonado.webp",
     "photoAlt": "Portrait of Kaycee Maldonado",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/kaycee-maldonado-1a04092a2/"
   },
   {
     "id": "hoshi-perez",
@@ -42,7 +46,8 @@
     "photo": "/images/alumni/hoshi-perez.webp",
     "photoAlt": "Portrait of Hoshi Perez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/hoshiperez/"
   },
   {
     "id": "melanie-montanez",
@@ -51,7 +56,8 @@
     "photo": "/images/alumni/melanie-montanez.webp",
     "photoAlt": "Portrait of Melanie Montanez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/melanie-montanez/"
   },
   {
     "id": "monica-gonzalez",
@@ -60,7 +66,8 @@
     "photo": "/images/alumni/monica-gonzalez.webp",
     "photoAlt": "Portrait of Monica Gonzalez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/gonzalez-monica-e"
   },
   {
     "id": "natasha-saldana",
@@ -69,7 +76,8 @@
     "photo": "/images/alumni/natasha-saldana.webp",
     "photoAlt": "Portrait of Natasha Saldana",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/natashasaldana"
   },
   {
     "id": "christian-alvarado",
@@ -78,7 +86,8 @@
     "photo": "/images/alumni/christian-alvarado.webp",
     "photoAlt": "Portrait of Christian Alvarado",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/christian-alvarado-23b42a27a/"
   },
   {
     "id": "vanessa-avery",
@@ -87,7 +96,8 @@
     "photo": "/images/alumni/vanessa-avery.webp",
     "photoAlt": "Portrait of Vanessa Avery",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/vanessa-avery-28391921a/"
   },
   {
     "id": "jesus-cruz",
@@ -96,7 +106,8 @@
     "photo": "/images/alumni/jesus-cruz.webp",
     "photoAlt": "Portrait of Jesus Cruz",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/jesuscruz04/"
   },
   {
     "id": "angela-martinez",
@@ -105,7 +116,8 @@
     "photo": "/images/alumni/angela-martinez.webp",
     "photoAlt": "Portrait of Angela Martinez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/angelamartinez05/"
   },
   {
     "id": "america-perez",
@@ -114,7 +126,8 @@
     "photo": "/images/alumni/america-perez.webp",
     "photoAlt": "Portrait of America Perez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/americalperez/"
   },
   {
     "id": "samara-alanis",
@@ -123,7 +136,8 @@
     "photo": "/images/alumni/samara-alanis.webp",
     "photoAlt": "Portrait of Samara Alanis",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/samaraalanis/"
   },
   {
     "id": "rebecca-ramirez",
@@ -132,7 +146,8 @@
     "photo": "/images/alumni/rebecca-ramirez.webp",
     "photoAlt": "Portrait of Rebecca Ramirez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/rebecca-ramirez0126/"
   },
   {
     "id": "roxanne-reyes",
@@ -141,7 +156,8 @@
     "photo": "/images/alumni/roxanne-reyes.webp",
     "photoAlt": "Portrait of Roxanne Reyes",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/reyesroxanne/"
   },
   {
     "id": "humberto-beto-romo",
@@ -150,7 +166,8 @@
     "photo": "/images/alumni/humberto-beto-romo.webp",
     "photoAlt": "Portrait of Humberto (Beto) Romo",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/humbertoromo"
   },
   {
     "id": "sofia-moreno",
@@ -159,7 +176,8 @@
     "photo": "/images/alumni/sofia-moreno.webp",
     "photoAlt": "Portrait of Sofia Moreno",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/sofia-suarez-moreno/"
   },
   {
     "id": "oscar-cazares",
@@ -168,7 +186,8 @@
     "photo": "/images/alumni/oscar-cazares.webp",
     "photoAlt": "Portrait of Oscar Cazares",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/oscar-cazares24"
   },
   {
     "id": "joceline-mena-teran",
@@ -177,7 +196,8 @@
     "photo": "/images/alumni/joceline-mena-teran.webp",
     "photoAlt": "Portrait of Joceline Mena Teran",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/jocelinemenat/"
   },
   {
     "id": "juliana-chavez",
@@ -186,7 +206,8 @@
     "photo": "/images/alumni/juliana-chavez.webp",
     "photoAlt": "Portrait of Juliana Chavez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/juliana-chavez"
   },
   {
     "id": "samantha-garcia",
@@ -195,7 +216,8 @@
     "photo": "/images/alumni/samantha-garcia.webp",
     "photoAlt": "Portrait of Samantha Garcia",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/samanthagarcia19"
   },
   {
     "id": "ariana-jimenez",
@@ -204,7 +226,8 @@
     "photo": "/images/alumni/ariana-jimenez.webp",
     "photoAlt": "Portrait of Ariana Jimenez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/ariana-jimenez-770b501a0"
   },
   {
     "id": "vaney-capetillo",
@@ -213,7 +236,8 @@
     "photo": "/images/alumni/vaney-capetillo.webp",
     "photoAlt": "Portrait of Vaney Capetillo",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/vaneycapetillo"
   },
   {
     "id": "marco-fuentes",
@@ -222,7 +246,8 @@
     "photo": "/images/alumni/marco-fuentes.webp",
     "photoAlt": "Portrait of Marco Fuentes",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/marco-fuentes-363534195"
   },
   {
     "id": "vanessa-gamboa",
@@ -231,7 +256,8 @@
     "photo": "/images/alumni/vanessa-gamboa.webp",
     "photoAlt": "Portrait of Vanessa Gamboa",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/vanessalgamboa"
   },
   {
     "id": "valeria-martinez",
@@ -240,7 +266,8 @@
     "photo": "/images/alumni/valeria-martinez.webp",
     "photoAlt": "Portrait of Valeria Martinez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/valeria-martinez-433b751a0/"
   },
   {
     "id": "eduardo-salinas",
@@ -249,7 +276,8 @@
     "photo": "/images/alumni/eduardo-salinas.webp",
     "photoAlt": "Portrait of Eduardo Salinas",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/eduardoalbertosalinas/"
   },
   {
     "id": "ivette-sanchez",
@@ -258,7 +286,8 @@
     "photo": "/images/alumni/ivette-sanchez.webp",
     "photoAlt": "Portrait of Ivette Sanchez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/ivettesanchez6399"
   },
   {
     "id": "erika-mercado",
@@ -267,7 +296,8 @@
     "photo": "/images/alumni/erika-mercado.webp",
     "photoAlt": "Portrait of Erika Mercado",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/erikamaemercado"
   },
   {
     "id": "michaela-salinas",
@@ -276,7 +306,8 @@
     "photo": "/images/alumni/michaela-salinas.webp",
     "photoAlt": "Portrait of Michaela Salinas",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/michaelasalinas"
   },
   {
     "id": "megan-estrada",
@@ -285,7 +316,8 @@
     "photo": "/images/alumni/megan-estrada.webp",
     "photoAlt": "Portrait of Megan Estrada",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/megan-estrada-ms-iop-aa6416183/"
   },
   {
     "id": "natalie-tamez",
@@ -294,7 +326,8 @@
     "photo": "/images/alumni/natalie-tamez.webp",
     "photoAlt": "Portrait of Natalie Tamez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/natali-tamez-585156183/"
   },
   {
     "id": "rebeca-gonzalez",
@@ -303,7 +336,8 @@
     "photo": "/images/alumni/rebeca-gonzalez.webp",
     "photoAlt": "Portrait of Rebeca Gonzalez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/rebecajgonzalez/"
   },
   {
     "id": "gerardo-martinez",
@@ -312,7 +346,8 @@
     "photo": "/images/alumni/gerardo-martinez.webp",
     "photoAlt": "Portrait of Gerardo Martinez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/gerardomartinez-1"
   },
   {
     "id": "chasity-barajas",
@@ -321,7 +356,8 @@
     "photo": "/images/alumni/chasity-barajas.webp",
     "photoAlt": "Portrait of Chasity Barajas",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/chasitybarajas/"
   },
   {
     "id": "frankie-enriquez",
@@ -330,7 +366,8 @@
     "photo": "/images/alumni/frankie-enriquez.webp",
     "photoAlt": "Portrait of Frankie Enriquez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": null
   },
   {
     "id": "marco-gonzalez",
@@ -339,7 +376,8 @@
     "photo": "/images/alumni/marco-gonzalez.webp",
     "photoAlt": "Portrait of Marco Gonzalez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/marco-gonzalez-654a76156/"
   },
   {
     "id": "andy-torres",
@@ -348,7 +386,8 @@
     "photo": "/images/alumni/andy-torres.webp",
     "photoAlt": "Portrait of Andy Torres",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/andy-torres-1436bb167/"
   },
   {
     "id": "monica-ramos",
@@ -357,7 +396,8 @@
     "photo": "/images/alumni/monica-ramos.webp",
     "photoAlt": "Portrait of Monica Ramos",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/monicaramos12/"
   },
   {
     "id": "linda-torres",
@@ -366,7 +406,8 @@
     "photo": "/images/alumni/linda-torres.webp",
     "photoAlt": "Portrait of Linda Torres",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/linda-a-torres/"
   },
   {
     "id": "anna-leija",
@@ -375,7 +416,8 @@
     "photo": "/images/alumni/anna-leija.webp",
     "photoAlt": "Portrait of Anna Leija",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/anna-leija-b502a2152/"
   },
   {
     "id": "tomas-tommy-ream",
@@ -384,7 +426,8 @@
     "photo": "/images/alumni/tomas-tommy-ream.webp",
     "photoAlt": "Portrait of Tomas (Tommy) Ream",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/tomasream/"
   },
   {
     "id": "javier-torres",
@@ -393,7 +436,8 @@
     "photo": "/images/alumni/javier-torres.webp",
     "photoAlt": "Portrait of Javier Torres",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": null
   },
   {
     "id": "helen-kang",
@@ -402,7 +446,8 @@
     "photo": "/images/alumni/helen-kang.webp",
     "photoAlt": "Portrait of Helen Kang",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": null
   },
   {
     "id": "ysabel-hinojosa",
@@ -411,7 +456,8 @@
     "photo": "/images/alumni/ysabel-hinojosa.webp",
     "photoAlt": "Portrait of Ysabel Hinojosa",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": null
   },
   {
     "id": "sarah-stegall-rodriguez",
@@ -420,7 +466,8 @@
     "photo": "/images/alumni/sarah-stegall-rodriguez.webp",
     "photoAlt": "Portrait of Sarah Stegall-Rodriguez",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption"
+    "source": "https://stresslab.weebly.com/people.html — alumni gallery caption",
+    "linkedin": "https://www.linkedin.com/in/sarsteg/"
   },
   {
     "id": "karla-chapa",
@@ -429,7 +476,8 @@
     "photo": "/images/alumni/karla-chapa.webp",
     "photoAlt": "Portrait of Karla Chapa",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html; identity/alumni status confirmed by Grant Benham"
+    "source": "https://stresslab.weebly.com/people.html; identity/alumni status confirmed by Grant Benham",
+    "linkedin": null
   },
   {
     "id": "madison-rosas",
@@ -438,6 +486,7 @@
     "photo": "/images/alumni/madison-rosas.webp",
     "photoAlt": "Portrait of Madison Rosas",
     "description": null,
-    "source": "https://stresslab.weebly.com/people.html; identity/alumni status confirmed by Grant Benham"
+    "source": "https://stresslab.weebly.com/people.html; identity/alumni status confirmed by Grant Benham",
+    "linkedin": "https://www.linkedin.com/in/madisonrosas/"
   }
 ]

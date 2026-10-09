@@ -30,12 +30,5 @@ const canonical = new URL(Astro.url.pathname, site.url).href;
     <a class="skip-link" href="#main">Skip to content</a>
     <Navigation />
     <main id="main" tabindex="-1"><slot /></main>
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div><p class="footer-name">{site.name}</p><p>{site.institution}<br />{site.location}</p></div>
-        <div class="footer-links"><a href={`mailto:${site.email}`}>{site.email}</a><a href={site.scholar}>Google Scholar →</a><a href={site.github}>GitHub →</a><a href={localUrl(site.cv)} download>Curriculum vitae</a></div>
-      </div>
-      <div class="container footer-note">An academic website · <a href={localUrl('/about/')}>About & contact</a></div>
-    </footer>
   </body>
 </html>
