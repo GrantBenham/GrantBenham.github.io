@@ -5,10 +5,11 @@ test('service order, initial state, independent toggles, and keyboard controls',
   await page.goto('service/');
   const buttons = page.locator('[data-service-toggle]');
   await expect(buttons).toHaveText(['Departmental Service', 'University & College Service', 'Professional Service']);
-  await expect(buttons.nth(0)).toHaveAttribute('aria-expanded', 'true');
+  await expect(buttons.nth(0)).toHaveAttribute('aria-expanded', 'false');
   await expect(buttons.nth(1)).toHaveAttribute('aria-expanded', 'false');
   await expect(buttons.nth(2)).toHaveAttribute('aria-expanded', 'false');
-  await expect(page.locator('.service-panel:visible')).toHaveCount(1);
+  await expect(page.locator('.service-panel:visible')).toHaveCount(0);
+  await buttons.nth(0).click();
   await expect(page.getByRole('link', {name:'Teaching', exact:true}).last()).toHaveAttribute('href','/teaching/');
   await expect(page.getByRole('link', {name:'Laboratory', exact:true})).toHaveAttribute('href','/lab/');
   await buttons.nth(1).focus(); await page.keyboard.press('Enter');
