@@ -1,24 +1,13 @@
 [
   {
-    "id": "gbmod",
-    "name": "gbMod",
-    "category": "Moderation analysis",
-    "description": "An R Shiny application for moderation analysis using Hayes’ PROCESS methodology, with regression diagnostics and visualizations.",
-    "repository": "https://github.com/GrantBenham/gbMod",
-    "documentation": "https://github.com/GrantBenham/gbMod#readme",
+    "id": "gbprocess",
+    "name": "gbPROCESS",
+    "category": "Mediation & moderation analysis",
+    "description": "An R Shiny interface for Hayes’ PROCESS for R, supporting mediation, moderation, and conditional process analyses, with regression diagnostics and visualizations.",
+    "repository": "https://github.com/GrantBenham/gbPROCESS",
+    "documentation": "https://github.com/GrantBenham/gbPROCESS#readme",
     "application": null,
-    "source": "gbMod repository README",
-    "reviewNote": null
-  },
-  {
-    "id": "gbmed",
-    "name": "gbMed",
-    "category": "Mediation analysis",
-    "description": "An R Shiny application for mediation analysis. The gbMed.R application is maintained within the gbMod repository.",
-    "repository": "https://github.com/GrantBenham/gbMod/blob/main/gbMed.R",
-    "documentation": "https://github.com/GrantBenham/gbMod#gbmed---mediation-analysis-gbmedr",
-    "application": null,
-    "source": "gbMod repository README",
+    "source": "gbPROCESS repository README",
     "reviewNote": null
   },
   {
@@ -41,6 +30,39 @@
     "documentation": null,
     "application": null,
     "source": "BioKubios GitHub repository description",
+    "reviewNote": null
+  },
+  {
+    "id": "gbstudyarcade",
+    "name": "gbStudyArcade",
+    "category": "Educational games",
+    "description": "A browser-based learning game for matching terms to definitions, with multiple game modes and support for custom term sets.",
+    "repository": "https://github.com/GrantBenham/gbStudyArcade",
+    "documentation": "https://github.com/GrantBenham/gbStudyArcade#readme",
+    "application": null,
+    "source": "gbStudyArcade repository README",
+    "reviewNote": null
+  },
+  {
+    "id": "mist-gb",
+    "name": "MIST_gb",
+    "category": "Experimental stress tasks",
+    "description": "Browser-based training and mental arithmetic tasks modeled on the Montreal Imaging Stress Task, with adjustable time limits and CSV export of task results.",
+    "repository": "https://github.com/GrantBenham/MIST_gb",
+    "documentation": "https://github.com/GrantBenham/MIST_gb#readme",
+    "application": null,
+    "source": "MIST_gb repository README",
+    "reviewNote": null
+  },
+  {
+    "id": "kubiosnoise",
+    "name": "KubiosNoise",
+    "category": "Heart rate variability data processing",
+    "description": "A Python application for processing Kubios HRV CSV exports and summarizing the duration and percentage of each segment retained after noise exclusion.",
+    "repository": "https://github.com/GrantBenham/KubiosNoise",
+    "documentation": "https://github.com/GrantBenham/KubiosNoise#readme",
+    "application": null,
+    "source": "KubiosNoise repository README",
     "reviewNote": null
   }
 ]
