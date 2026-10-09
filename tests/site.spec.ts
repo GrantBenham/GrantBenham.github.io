@@ -126,12 +126,13 @@ test('merged home, stable About link, and compact linked alumni', async ({page})
   await page.goto('about/');
   await expect(page).toHaveURL(/\/#about$/);
   await page.goto('lab/');
-  await expect(page.getByRole('heading', {name:'Dr. Jordan Buren (nee Kenemore)',exact:true})).toBeVisible();
-  await expect(page.getByRole('link', {name:'Dr. Jordan Buren (nee Kenemore) on LinkedIn'})).toHaveAttribute('href','https://www.linkedin.com/in/jordankenemore');
+  await expect(page.getByRole('heading', {name:'Dr. Jordan Buren',exact:true})).toBeVisible();
+  await expect(page.getByRole('link', {name:'Dr. Jordan Buren on LinkedIn'})).toHaveAttribute('href','https://www.linkedin.com/in/jordankenemore');
   await expect(page.getByRole('link', {name:'Madison Rosas on LinkedIn'})).toHaveAttribute('href','https://www.linkedin.com/in/madisonrosas/');
   await expect(page.locator('.alumni-card').filter({has:page.getByRole('heading',{name:'Karla Chapa',exact:true})}).locator('a')).toHaveCount(0);
   for (const width of [1440,390]) {
     await page.setViewportSize({width,height:900});
-    expect(await page.locator('.alumni-card img').evaluateAll(images => images.every(image => image.getBoundingClientRect().width <= 90))).toBe(true);
+    expect(await page.locator('.alumni-card h3').evaluateAll(names => names.every(name => name.scrollWidth <= 120))).toBe(true);
+    expect(await page.locator('.alumni-card img').evaluateAll(images => images.every(image => image.getBoundingClientRect().width === 120))).toBe(true);
   }
 });
